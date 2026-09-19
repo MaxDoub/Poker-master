@@ -5,3 +5,7 @@ __pycache__/
 # Ranges personnelles : jamais dans un dépôt public.
 # Elles restent sur cette machine et dans l'iPhone après import.
 data/mes-ranges.json
+
+# Réglages locaux de l app Claude
+.claude/
+_t.xlsx

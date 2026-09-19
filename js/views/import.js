@@ -17,12 +17,15 @@ export async function renderImport(root, params) {
   let pending = null;
   const hasMine = await exists('data/mes-ranges.json');
 
+  // Pas d'attribut `accept` : sur iOS il grise les fichiers non reconnus dans l'app
+  // Fichiers, et taper sur un fichier grisé ne produit aucun effet visible. Le format
+  // est de toute façon détecté à la lecture, et une erreur claire s'affiche sinon.
   const fileInput = el('input.file-input', {
     type: 'file',
-    accept: '.xlsx,.xlsm,.csv,.tsv,.txt,.json',
     onchange: async (e) => {
       const file = e.target.files[0];
       if (!file) return;
+      showReading(file.name);
       await run(() => parseFile(file), file.name);
       e.target.value = '';
     },
@@ -47,22 +50,31 @@ export async function renderImport(root, params) {
       "Ranges d'ouverture génériques, uniquement pour tester l'app. Elles ne valent pas les tiennes."),
     el('button.btn.btn--ghost', { onclick: loadDemo }, 'Charger la range de démo'));
 
+  /** Retour visuel immédiat : lire un .xlsx de 5000 lignes prend un instant. */
+  function showReading(name) {
+    preview.classList.remove('is-hidden');
+    mount(clear(preview), section('Lecture en cours',
+      el('p', null, name),
+      el('p.hint', null, 'Analyse du fichier…')));
+    preview.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
   mount(root,
     el('h1.page-title', null, 'Importer mes ranges'),
     section('Fichier',
       el('label.dropzone', null,
         fileInput,
         el('strong', null, 'Choisir un fichier'),
-        el('span.hint', null, '.xlsx, .csv, .tsv ou .json — rien n\'est envoyé sur Internet')),
+        el('span.hint', null, 'Excel, CSV ou JSON — rien n\'est envoyé sur Internet')),
       el('p.hint', null,
         'Colonnes attendues : pocket card · suited · stack · place · décision. '
         + 'Les lignes sans décision (ex. BB) sont ignorées.')),
+    preview,
     section('Coller du texte',
       pasteBox,
       el('button.btn.btn--ghost', {
         onclick: () => run(() => parseText(pasteBox.value), 'texte collé'),
       }, 'Analyser le texte')),
-    preview,
     bundled,
   );
 
@@ -98,6 +110,7 @@ export async function renderImport(root, params) {
 
   function showPreview({ ranges, stats }, label) {
     preview.classList.remove('is-hidden');
+    requestAnimationFrame(() => preview.scrollIntoView({ behavior: 'smooth', block: 'start' }));
     const hands = ranges.reduce((n, r) => n + Object.keys(r.hands).length, 0);
 
     mount(clear(preview),section(`Aperçu — ${label}`,
