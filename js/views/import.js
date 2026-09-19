@@ -25,6 +25,13 @@ export async function renderImport(root, params) {
     onchange: async (e) => {
       const file = e.target.files[0];
       if (!file) return;
+      // Un fichier iCloud pas encore rapatrié arrive ici avec une taille nulle.
+      if (!file.size) {
+        showError(`« ${file.name} » est vide ou pas encore téléchargé depuis iCloud. `
+          + "Ouvre-le une fois dans l'app Fichiers pour forcer son téléchargement, puis réessaie.");
+        e.target.value = '';
+        return;
+      }
       showReading(file.name);
       await run(() => parseFile(file), file.name);
       e.target.value = '';
@@ -49,6 +56,15 @@ export async function renderImport(root, params) {
     el('p.hint', null,
       "Ranges d'ouverture génériques, uniquement pour tester l'app. Elles ne valent pas les tiennes."),
     el('button.btn.btn--ghost', { onclick: loadDemo }, 'Charger la range de démo'));
+
+  function showError(message) {
+    pending = null;
+    preview.classList.remove('is-hidden');
+    mount(clear(preview), el('div.card.card--error', null,
+      el('h2.card__title', null, 'Import impossible'),
+      el('p', null, message)));
+    preview.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
 
   /** Retour visuel immédiat : lire un .xlsx de 5000 lignes prend un instant. */
   function showReading(name) {
@@ -87,11 +103,7 @@ export async function renderImport(root, params) {
       pending = result;
       showPreview(result, label);
     } catch (err) {
-      pending = null;
-      preview.classList.remove('is-hidden');
-      mount(clear(preview),el('div.card.card--error', null,
-        el('h2.card__title', null, 'Import impossible'),
-        el('p', null, err.message)));
+      showError(err.message);
     }
   }
 

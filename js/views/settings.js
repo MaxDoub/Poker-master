@@ -5,9 +5,32 @@ import { allAttempts, clearAttempts } from '../stats.js';
 import { download } from './ranges.js';
 import { applyTheme } from '../theme.js';
 
+/**
+ * Version réellement servie au navigateur : on lit le sw.js actif plutôt qu'une
+ * constante dupliquée, pour que l'affichage ne puisse pas mentir.
+ */
+async function runningVersion() {
+  try {
+    const text = await (await fetch('sw.js')).text();
+    const m = text.match(/poker-master-v(\d+)/);
+    return m ? `v${m[1]}` : 'inconnue';
+  } catch {
+    return 'inconnue';
+  }
+}
+
+/** Purge le service worker et ses caches, puis recharge depuis le réseau. */
+async function forceUpdate() {
+  const regs = await navigator.serviceWorker?.getRegistrations?.() ?? [];
+  await Promise.all(regs.map((r) => r.unregister()));
+  const keys = await caches?.keys?.() ?? [];
+  await Promise.all(keys.map((k) => caches.delete(k)));
+  location.replace(`${location.pathname}?fresh=${Date.now()}`);
+}
+
 export async function renderSettings(root) {
-  const [ranges, attempts, theme] = await Promise.all([
-    listRanges(), allAttempts(), getSetting('theme', 'dark'),
+  const [ranges, attempts, theme, version] = await Promise.all([
+    listRanges(), allAttempts(), getSetting('theme', 'dark'), runningVersion(),
   ]);
 
   mount(root,
@@ -57,6 +80,15 @@ export async function renderSettings(root) {
             go('#/settings');
           },
         }, 'Supprimer toutes les ranges'))),
+
+    section('Version',
+      el('p.hint', null,
+        el('strong', null, version),
+        " — c'est la version réellement chargée dans ce navigateur, pas celle du serveur."),
+      el('p.hint', null,
+        'Une app installée garde son cache : si une correction ne semble pas arrivée, '
+        + 'utilise le bouton ci-dessous.'),
+      el('button.btn.btn--ghost', { onclick: forceUpdate }, 'Forcer la mise à jour')),
 
     section('À propos',
       el('p.hint', null,
