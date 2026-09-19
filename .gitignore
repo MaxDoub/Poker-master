@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ranges personnelles : jamais dans un dépôt public.
+# Elles restent sur cette machine et dans l'iPhone après import.
+data/mes-ranges.json
