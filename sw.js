@@ -1,6 +1,6 @@
 // Service worker : l'app doit rester utilisable dans le métro ou en avion.
 
-const VERSION = 'poker-master-v8';
+const VERSION = 'poker-master-v9';
 
 const ASSETS = [
   './',

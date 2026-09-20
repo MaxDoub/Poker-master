@@ -80,7 +80,8 @@ La réponse est en haut de l'écran et se met à jour à chaque changement, sans
 valider. La grille 13×13 en bas est cliquable : toucher une case consulte cette main.
 La dernière consultation est mémorisée.
 
-Accessible depuis l'accueil et depuis l'écran Ranges.
+Accessible par l'onglet **Consulter** de la barre du bas, toujours visible, ainsi que
+depuis l'accueil et l'écran Ranges.
 
 ### Audit des ranges
 

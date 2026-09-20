@@ -4,6 +4,14 @@ import { allAttempts, summarize } from '../stats.js';
 
 const EXERCISES = [
   {
+    route: '#/lookup',
+    icon: '?',
+    title: 'Que faire ?',
+    tag: 'Consultation',
+    body: "Tu donnes ta position, ton stack et tes deux cartes, l'app répond ce que "
+      + "disent tes ranges, et pourquoi. Ce n'est pas un exercice : c'est une réponse.",
+  },
+  {
     route: '#/drill',
     icon: '♠',
     title: 'Drill préflop',
