@@ -150,7 +150,6 @@ body {
 /* ------------------------------------------------------------------ chips */
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chips--sizing { margin-bottom: 4px; }
 
 .chip {
   appearance: none;
@@ -425,6 +424,9 @@ body {
 .table__rail { fill: var(--rail); stroke: rgba(0, 0, 0, 0.5); stroke-width: 1; }
 .table__line { fill: none; stroke: rgba(255, 255, 255, 0.16); stroke-width: 1; }
 
+.table__stack { fill: #f2f7f4; }
+.table__stack-label { fill: rgba(233, 244, 239, 0.45); }
+
 .seat__chip {
   fill: rgba(4, 18, 14, 0.78);
   stroke: rgba(255, 255, 255, 0.22);
@@ -432,12 +434,12 @@ body {
 }
 .seat__label { fill: #dfe9e4; }
 .seat__sub { fill: #8fa79e; }
-.seat--folded { opacity: 0.38; }
+.seat--folded { opacity: 0.4; }
 .seat--folded .seat__chip { stroke-dasharray: 3 3; }
+
 .seat--hero .seat__chip { fill: var(--accent); stroke: #fff6df; stroke-width: 1.5; }
 .seat--hero .seat__label { fill: #1d1705; }
-.seat--hero .seat__sub { fill: rgba(29, 23, 5, 0.72); }
-.seat__you { fill: var(--accent); letter-spacing: 2px; }
+.seat--hero .seat__sub { fill: rgba(29, 23, 5, 0.75); }
 .dealer circle { fill: #f6f7f4; stroke: rgba(0, 0, 0, 0.35); }
 .dealer text { fill: #1b2320; }
 
@@ -559,3 +561,82 @@ body {
 .card--warn { border-color: var(--accent); }
 
 .tag--strong { background: var(--accent); color: #17200a; border-color: transparent; }
+
+
+/* ======================================================== écran de correction */
+
+/* Verdict et « Main suivante » sur une seule ligne : rien à faire défiler
+   pour enchaîner la main suivante. */
+.result {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.result__verdict {
+  border-radius: var(--radius);
+  border: 1px solid;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+}
+.result__word { font-size: 24px; font-weight: 800; line-height: 1.05; }
+.result__detail { font-size: 13px; color: var(--text-dim); }
+
+.result__verdict--good {
+  background: rgba(240, 180, 41, 0.14);
+  border-color: var(--accent);
+}
+.result__verdict--good .result__word { color: var(--accent); }
+
+.result__verdict--bad {
+  background: rgba(212, 69, 60, 0.16);
+  border-color: var(--bad);
+}
+.result__verdict--bad .result__word { color: var(--bad); }
+
+.result__verdict--muted {
+  background: rgba(120, 140, 132, 0.14);
+  border-color: var(--line-strong);
+}
+
+.result__next {
+  align-self: stretch;
+  padding: 0 16px;
+  min-height: 0;
+  width: 116px;
+  font-size: 15px;
+  line-height: 1.15;
+  white-space: normal;
+}
+
+.hand-recap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--felt-700);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+.hand-recap__meta { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.reasons { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.reasons li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+.reasons li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 9px;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}

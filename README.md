@@ -12,7 +12,7 @@ les fichiers du dépôt *sont* l'application.
 
 | Exercice | Compétence travaillée | D'où vient la bonne réponse |
 | --- | --- | --- |
-| **Drill préflop** | Ranges d'ouverture par position et profondeur | Tes ranges |
+| **Drill préflop** | Ranges d'ouverture par position et profondeur | Tes ranges, avec justification |
 | **Drill chronométré** | Décider à la vitesse de la table | Tes ranges |
 | **Révision ciblée** | Corriger tes erreurs récurrentes | Tes ranges + ton historique |
 | **Cotes & équité** | Call ou fold face à un all-in | Monte-Carlo contre ta range de shove |
@@ -25,9 +25,17 @@ mathématique. Aucun solveur générique non validé n'est introduit en douce.
 
 ### Drill préflop
 
-Table 6-max dessinée à l'écran : les joueurs déjà passés sont à gauche, ceux qui restent
-à parler sont à droite, le bouton est sur BTN. Tu vois ta position dans l'ordre de parole
-au lieu de la déduire d'une abréviation.
+Table 6-max dessinée à l'écran, avec le **stack effectif en gros au centre** : c'est lui
+qui commande l'action. Les joueurs déjà passés sont à gauche et grisés, ceux qui restent
+à parler sont à droite, le bouton est sur BTN, et ton siège est nettement plus gros que
+les autres. Tu vois ta position dans l'ordre de parole au lieu de la déduire d'une
+abréviation.
+
+Tout tient sur un écran d'iPhone : table, cartes et boutons d'action, sans défilement.
+Sur l'écran de correction, le verdict et le bouton « Main suivante » sont côte à côte,
+pour enchaîner sans jamais faire défiler la page.
+
+Chaque réponse est justifiée en deux à quatre phrases — voir ci-dessous.
 
 Hors mode révision, les cartes sont tirées d'un vrai jeu de 52 : les mains dépareillées
 sortent donc 3 fois plus souvent que les assorties, comme à une vraie table.
@@ -185,8 +193,25 @@ Si tu ajoutes des fréquences un jour, le format JSON les accepte :
 | **Erreur** | Ton action n'est pas dans la range, ou le chrono a expiré |
 | *non compté* | La main n'est pas renseignée pour ce spot |
 
-Le sizing (2 BB, 2,5 BB…) est enregistré dans l'historique mais **pas noté** : l'Excel
-n'en contient pas. C'est le crochet prêt pour le jour où tu ajoutes des tailles.
+Le choix du sizing a été retiré de l'écran : l'Excel n'en contient pas, il n'était donc
+pas noté, et il coûtait la place nécessaire pour que les boutons tiennent sans défilement.
+Le champ reste dans l'historique, prêt pour le jour où tu ajouteras des tailles.
+
+### Les justifications
+
+Après chaque main, l'app explique la réponse. Comme le reste, **rien n'est inventé** :
+chaque phrase est un fait lu dans tes propres ranges.
+
+- la largeur de ta range à cette position, et la place de la main dedans ;
+- **la limite de sa famille** : pour AJo, jusqu'où va ta range A-x dépareillée
+  (« A10o se joue, A9o se folde ») — c'est le repère qui se retient ;
+- un point de comparaison pris ailleurs chez toi : la même main à une position plus
+  tardive, ou à une autre profondeur ;
+- en dessous de 15 BB, la part de tes combinaisons qui partent directement à tapis.
+
+Quand une famille n'est pas monotone, l'app ne prétend pas y voir une limite nette : elle
+signale l'irrégularité (« 99 se folde alors que 88, 77, 66, plus faibles, se jouent »).
+Ce sont les mêmes anomalies que celles relevées par l'écran Audit.
 
 ---
 
@@ -214,12 +239,16 @@ js/
 data/
   mes-ranges.json       tes 25 ranges
   demo-range.json       ranges génériques, pour tester l'app
+  explain.js            justification d'une réponse, à partir de tes ranges
 tools/
   xlsx_to_json.py       convertisseur Excel → JSON
   devserver.py          serveur local sans cache
   make_demo_range.py    génère data/demo-range.json
-  make_icons.py         génère les icônes PNG
+  make_icons.py         décline les icônes depuis icons/icon-512.png
 ```
+
+L'icône de l'app est une photo ; `icons/icon-512.png` en est la source, les autres
+formats en sont dérivés par `make_icons.py`.
 
 ---
 
@@ -227,6 +256,10 @@ tools/
 
 Après modification d'un fichier, **incrémente `VERSION` dans `sw.js`** — sinon le service
 worker continue à servir l'ancienne version depuis son cache.
+
+Les **Réglages** affichent la version réellement chargée, lue dans le service worker
+actif, avec un bouton « Forcer la mise à jour » qui purge le cache et recharge. C'est le
+moyen le plus rapide de vérifier qu'une correction est bien arrivée sur le téléphone.
 
 Pendant le développement, ouvre l'app avec `?nosw` :
 
