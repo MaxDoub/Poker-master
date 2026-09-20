@@ -472,6 +472,12 @@ body.felt-bg::before {
 }
 .seat__label { fill: #dfe9e4; }
 .seat__sub { fill: #8fa79e; }
+/* L'ouvreur reste bien visible même s'il a parlé avant toi. */
+.seat--raiser .seat__chip { fill: rgba(212, 69, 60, 0.9); stroke: #ffd9d6; stroke-width: 1.4; }
+.seat--raiser .seat__label { fill: #fff3f2; }
+.seat__bet { fill: #f6f7f4; stroke: rgba(0, 0, 0, 0.3); }
+.seat__bet-label { fill: #1b2320; }
+
 .seat--folded { opacity: 0.4; }
 .seat--folded .seat__chip { stroke-dasharray: 3 3; }
 

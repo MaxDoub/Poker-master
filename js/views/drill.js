@@ -1,8 +1,9 @@
 import { el, clear, section, go, pct, emptyState, mount } from '../ui.js';
 import {
   listRanges, availablePositions, availableStacks, availableScenarios,
-  POSITION_LABEL, SCENARIOS, ACTION_META, answerLabel, expectedLabel,
+  POSITION_LABEL, SCENARIOS, ACTION_META, answerLabel, expectedLabel, facingRaise,
 } from '../ranges.js';
+import { requiredEquity, potOdds } from '../equity.js';
 import { getSetting, setSetting } from '../db.js';
 import { allAttempts, recordAttempt } from '../stats.js';
 import { createSession, actionPalette } from '../drill.js';
@@ -13,9 +14,13 @@ import { explain } from '../explain.js';
 
 const HAND_COUNTS = [10, 25, 50, Infinity];
 const TIMERS = [0, 15, 8, 4];
+// L'Excel ne contient pas de taille d'ouverture : on la choisit explicitement
+// plutôt que d'en supposer une en silence, puisqu'elle fixe les cotes.
+const OPEN_SIZES = [2, 2.5, 3];
 
 const DEFAULT_CONFIG = {
-  positions: [], stacks: [], scenarios: [], handCount: 25, revision: false, timer: 0,
+  positions: [], stacks: [], scenarios: [], handCount: 25, revision: false,
+  timer: 0, openSize: 2.5,
 };
 
 /* ------------------------------------------------------------------ config */
@@ -105,6 +110,14 @@ export async function renderDrill(root, params) {
       : null,
     section('Longueur', pickRow(HAND_COUNTS, config.handCount,
       (n) => (n === Infinity ? 'Illimité' : `${n} mains`), (n) => { config.handCount = n; })),
+    scenarios.some(facingRaise)
+      ? section("Taille d'ouverture supposée",
+        pickRow(OPEN_SIZES, config.openSize,
+          (v) => `${String(v).replace('.', ',')} BB`, (v) => { config.openSize = v; }),
+        el('p.hint', null,
+          "Tes ranges ne contiennent pas de sizing. Cette valeur ne change aucune "
+          + 'réponse attendue : elle sert à afficher les cotes du pot.'))
+      : null,
     section('Chrono',
       pickRow(TIMERS, config.timer,
         (t) => (t === 0 ? 'Sans' : `${t} s`), (t) => { config.timer = t; }),
@@ -163,8 +176,15 @@ function renderSession(root, session, allRanges) {
       })),
       session.config.timer ? el('div.timer', null, timerBar) : null,
       el('div.felt', null,
-        buildTable({ position: spot.range.position, stackBB: spot.range.stackBB }),
-        el('p.felt__action', null, actionLine(spot.range.position)),
+        buildTable({
+          position: spot.range.position,
+          stackBB: spot.range.stackBB,
+          scenario: spot.range.scenario,
+          openSize: facingRaise(spot.range.scenario) ? session.config.openSize : null,
+        }),
+        el('p.felt__action', null,
+          actionLine(spot.range.position, spot.range.scenario,
+            facingRaise(spot.range.scenario) ? session.config.openSize : null)),
         el('div.hole-cards', null, spot.cards.map((c) => cardSVG(c)))),
       buildActions(spot),
     );
@@ -237,6 +257,8 @@ function renderSession(root, session, allRanges) {
           el('span.tag.tag--strong', null, spot.range.position),
           el('span.tag', null, `${spot.range.stackBB} BB`))),
 
+      oddsLine(spot, session.config.openSize),
+
       reasons.length
         ? section('Pourquoi', el('ul.reasons', null, reasons.map((r) => el('li', null, r))))
         : null,
@@ -252,6 +274,42 @@ function renderSession(root, session, allRanges) {
     stopTimer();
     renderSummary(root, session);
   }
+}
+
+/** Ce que le joueur a déjà posté avant de parler, en BB. */
+const POSTED = { BB: 1, SB: 0.5 };
+
+/**
+ * Cotes du pot face à une ouverture. Purement arithmétique : la taille
+ * d'ouverture est celle choisie dans la config, l'action attendue n'en dépend pas.
+ */
+function oddsLine(spot, openSize) {
+  if (!facingRaise(spot.range.scenario) || !openSize) return null;
+
+  const posted = POSTED[spot.range.position] || 0;
+  // Les deux blindes sont dans le pot ; celle du joueur en fait partie.
+  const pot = openSize + 1.5;
+  const toCall = openSize - posted;
+  if (toCall <= 0) return null;
+
+  const needed = requiredEquity(pot, toCall);
+  const fr = (v) => v.toLocaleString('fr-FR', { maximumFractionDigits: 2 });
+
+  return section('Les cotes',
+    el('div.odds-facts', null,
+      el('div.stat', null,
+        el('div.stat__value', null, `${fr(pot)} BB`),
+        el('div.stat__label', null, 'Pot avant ton call')),
+      el('div.stat', null,
+        el('div.stat__value', null, `${fr(toCall)} BB`),
+        el('div.stat__label', null, 'À payer')),
+      el('div.stat', null,
+        el('div.stat__value', null, pct(needed, 1)),
+        el('div.stat__label', null, 'Équité nécessaire'))),
+    el('p.hint', null,
+      `Cote du pot : ${fr(potOdds(pot, toCall))} contre 1. `
+      + `Un call doit gagner au moins ${pct(needed, 1)} du temps pour être rentable — `
+      + `en supposant une ouverture à ${fr(openSize)} BB.`));
 }
 
 /* ------------------------------------------------------------------ bilan */

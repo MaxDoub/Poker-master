@@ -1,7 +1,7 @@
 // Table 6-max en SVG : compacte, avec le stack effectif au centre du feutre
 // et le siège du joueur nettement plus gros que les autres.
 
-import { POSITION_LABEL } from './ranges.js';
+import { POSITION_LABEL, AGGRESSOR } from './ranges.js';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -40,14 +40,23 @@ function seatPoint(index, count) {
   return { x: CX + SEAT_RX * Math.cos(rad), y: CY + SEAT_RY * Math.sin(rad) };
 }
 
-function opponentSeat({ x, y, position, folded }) {
-  const g = node('g', { class: `seat seat--${folded ? 'folded' : 'waiting'}` });
+function opponentSeat({ x, y, position, state, bet }) {
+  const g = node('g', { class: `seat seat--${state}` });
   g.appendChild(node('rect', {
     x: x - 23, y: y - 10, width: 46, height: 20, rx: 10, class: 'seat__chip',
   }));
   g.appendChild(text(position, {
     x, y: y + 4, 'font-size': 11, 'font-weight': 700, class: 'seat__label',
   }));
+  // La mise de l'ouvreur, posée devant son siège : c'est elle qui fixe les cotes.
+  if (bet) {
+    g.appendChild(node('rect', {
+      x: x - 20, y: y + 12, width: 40, height: 15, rx: 7.5, class: 'seat__bet',
+    }));
+    g.appendChild(text(bet, {
+      x, y: y + 22.5, 'font-size': 9, 'font-weight': 700, class: 'seat__bet-label',
+    }));
+  }
   return g;
 }
 
@@ -77,12 +86,15 @@ function dealerButton(x, y, offset = 30) {
  * @param {object} options { position, stackBB }
  * @returns {SVGElement}
  */
-export function buildTable({ position, stackBB }) {
+export function buildTable({ position, stackBB, scenario = 'RFI', openSize = null }) {
+  const raiser = AGGRESSOR[scenario] || null;
   const svg = node('svg', {
     viewBox: '0 0 320 148',
     class: 'poker-table',
     role: 'img',
-    'aria-label': `Table 6 joueurs, tu es en ${POSITION_LABEL[position] || position} avec ${stackBB} big blinds`,
+    'aria-label': `Table 6 joueurs, tu es en ${POSITION_LABEL[position] || position} `
+      + `avec ${stackBB} big blinds`
+      + (raiser ? `, ${raiser} a ouvert` : ''),
   });
 
   const defs = node('defs');
@@ -113,8 +125,12 @@ export function buildTable({ position, stackBB }) {
 
   others.forEach((pos, i) => {
     const { x, y } = seatPoint(i, others.length);
+    const before = ACTION_ORDER.indexOf(pos) < heroIndex;
+    // L'ouvreur reste actif même s'il a parlé avant toi : c'est lui qu'il faut voir.
+    const state = pos === raiser ? 'raiser' : (before ? 'folded' : 'waiting');
     svg.appendChild(opponentSeat({
-      x, y, position: pos, folded: ACTION_ORDER.indexOf(pos) < heroIndex,
+      x, y, position: pos, state,
+      bet: pos === raiser && openSize ? `${String(openSize).replace('.', ',')} BB` : null,
     }));
     if (pos === 'BTN') svg.appendChild(dealerButton(x, y, 30));
   });
@@ -127,8 +143,17 @@ export function buildTable({ position, stackBB }) {
 }
 
 /** Légende textuelle de l'action en cours. */
-export function actionLine(position) {
+export function actionLine(position, scenario = 'RFI', openSize = null) {
   const index = ACTION_ORDER.indexOf(position);
+  const raiser = AGGRESSOR[scenario] || null;
+
+  if (raiser) {
+    const size = openSize ? ` à ${String(openSize).replace('.', ',')} BB` : '';
+    const others = ACTION_ORDER.slice(0, index).filter((p) => p !== raiser);
+    const folds = others.length ? `, ${others.join(', ')} fold` : '';
+    return `${raiser} ouvre${size}${folds}. À toi.`;
+  }
+
   if (index <= 0) return "Personne n'a parlé. Tu ouvres l'action.";
   const before = ACTION_ORDER.slice(0, index);
   return `${before.join(', ')} ${before.length > 1 ? 'ont' : 'a'} fold. À toi.`;

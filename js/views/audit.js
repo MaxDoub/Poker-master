@@ -130,11 +130,14 @@ export async function renderAudit(root) {
     return;
   }
 
-  const stacks = [...new Set(ranges.map((r) => r.stackBB))].sort((a, b) => a - b);
-  const positions = POSITIONS.filter((p) => ranges.some((r) => r.position === p));
+  // La matrice compare des largeurs d'ouverture : mélanger les scénarios y
+  // ferait se télescoper deux ranges sous la même case.
+  const opening = ranges.filter((r) => r.scenario === 'RFI');
+  const stacks = [...new Set(opening.map((r) => r.stackBB))].sort((a, b) => a - b);
+  const positions = POSITIONS.filter((p) => opening.some((r) => r.position === p));
 
   const pctByKey = new Map();
-  for (const r of ranges) pctByKey.set(`${r.position}|${r.stackBB}`, openPercent(r));
+  for (const r of opening) pctByKey.set(`${r.position}|${r.stackBB}`, openPercent(r));
 
   const byStack = stacks.map((stack) => [stack, Object.fromEntries(
     positions.map((p) => [p, pctByKey.get(`${p}|${stack}`)]).filter(([, v]) => v !== undefined))]);
@@ -158,7 +161,15 @@ export async function renderAudit(root) {
       `${ranges.length} ranges analysées. Cet écran ne dit pas si ta stratégie est bonne : `
       + 'il cherche les endroits où tes ranges se contredisent entre elles.'),
 
-    section('Largeur d\'ouverture (% des combinaisons jouées)', matrix(byStack, positions)),
+    opening.length
+      ? section('Largeur d\'ouverture (% des combinaisons jouées)',
+        matrix(byStack, positions),
+        ranges.length > opening.length
+          ? el('p.hint', null,
+            `Seules tes ${opening.length} ranges d'ouverture figurent ici : `
+            + 'les autres scénarios ne se comparent pas sur cette échelle.')
+          : null)
+      : null,
 
     section('Cohérence entre positions',
       inversions.length

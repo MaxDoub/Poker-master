@@ -1,0 +1,2536 @@
+﻿pocket card;suited;stack;place;décision;scenario
+A-A;Pairé;10;BB;;vs open BTN
+A-K;suited;10;BB;;vs open BTN
+A-Q;suited;10;BB;;vs open BTN
+A-J;suited;10;BB;;vs open BTN
+A-10;suited;10;BB;;vs open BTN
+A-9;suited;10;BB;;vs open BTN
+A-8;suited;10;BB;;vs open BTN
+A-7;suited;10;BB;;vs open BTN
+A-6;suited;10;BB;;vs open BTN
+A-5;suited;10;BB;;vs open BTN
+A-4;suited;10;BB;;vs open BTN
+A-3;suited;10;BB;;vs open BTN
+A-2;suited;10;BB;;vs open BTN
+A-K;non suited;10;BB;;vs open BTN
+A-Q;non suited;10;BB;;vs open BTN
+A-J;non suited;10;BB;;vs open BTN
+A-10;non suited;10;BB;;vs open BTN
+A-9;non suited;10;BB;;vs open BTN
+A-8;non suited;10;BB;;vs open BTN
+A-7;non suited;10;BB;;vs open BTN
+A-6;non suited;10;BB;;vs open BTN
+A-5;non suited;10;BB;;vs open BTN
+A-4;non suited;10;BB;;vs open BTN
+A-3;non suited;10;BB;;vs open BTN
+A-2;non suited;10;BB;;vs open BTN
+K-K;Pairé;10;BB;;vs open BTN
+K-Q;suited;10;BB;;vs open BTN
+K-J;suited;10;BB;;vs open BTN
+K-10;suited;10;BB;;vs open BTN
+K-9;suited;10;BB;;vs open BTN
+K-8;suited;10;BB;;vs open BTN
+K-7;suited;10;BB;;vs open BTN
+K-6;suited;10;BB;;vs open BTN
+K-5;suited;10;BB;;vs open BTN
+K-4;suited;10;BB;;vs open BTN
+K-3;suited;10;BB;;vs open BTN
+K-2;suited;10;BB;;vs open BTN
+K-Q;non suited;10;BB;;vs open BTN
+K-J;non suited;10;BB;;vs open BTN
+K-10;non suited;10;BB;;vs open BTN
+K-9;non suited;10;BB;;vs open BTN
+K-8;non suited;10;BB;;vs open BTN
+K-7;non suited;10;BB;;vs open BTN
+K-6;non suited;10;BB;;vs open BTN
+K-5;non suited;10;BB;;vs open BTN
+K-4;non suited;10;BB;;vs open BTN
+K-3;non suited;10;BB;;vs open BTN
+K-2;non suited;10;BB;;vs open BTN
+Q-Q;Pairé;10;BB;;vs open BTN
+Q-J;suited;10;BB;;vs open BTN
+Q-10;suited;10;BB;;vs open BTN
+Q-9;suited;10;BB;;vs open BTN
+Q-8;suited;10;BB;;vs open BTN
+Q-7;suited;10;BB;;vs open BTN
+Q-6;suited;10;BB;;vs open BTN
+Q-5;suited;10;BB;;vs open BTN
+Q-4;suited;10;BB;;vs open BTN
+Q-3;suited;10;BB;;vs open BTN
+Q-2;suited;10;BB;;vs open BTN
+Q-J;non suited;10;BB;;vs open BTN
+Q-10;non suited;10;BB;;vs open BTN
+Q-9;non suited;10;BB;;vs open BTN
+Q-8;non suited;10;BB;;vs open BTN
+Q-7;non suited;10;BB;;vs open BTN
+Q-6;non suited;10;BB;;vs open BTN
+Q-5;non suited;10;BB;;vs open BTN
+Q-4;non suited;10;BB;;vs open BTN
+Q-3;non suited;10;BB;;vs open BTN
+Q-2;non suited;10;BB;;vs open BTN
+J-J;Pairé;10;BB;;vs open BTN
+J-10;suited;10;BB;;vs open BTN
+J-9;suited;10;BB;;vs open BTN
+J-8;suited;10;BB;;vs open BTN
+J-7;suited;10;BB;;vs open BTN
+J-6;suited;10;BB;;vs open BTN
+J-5;suited;10;BB;;vs open BTN
+J-4;suited;10;BB;;vs open BTN
+J-3;suited;10;BB;;vs open BTN
+J-2;suited;10;BB;;vs open BTN
+J-10;non suited;10;BB;;vs open BTN
+J-9;non suited;10;BB;;vs open BTN
+J-8;non suited;10;BB;;vs open BTN
+J-7;non suited;10;BB;;vs open BTN
+J-6;non suited;10;BB;;vs open BTN
+J-5;non suited;10;BB;;vs open BTN
+J-4;non suited;10;BB;;vs open BTN
+J-3;non suited;10;BB;;vs open BTN
+J-2;non suited;10;BB;;vs open BTN
+10-10;Pairé;10;BB;;vs open BTN
+10-9;suited;10;BB;;vs open BTN
+10-8;suited;10;BB;;vs open BTN
+10-7;suited;10;BB;;vs open BTN
+10-6;suited;10;BB;;vs open BTN
+10-5;suited;10;BB;;vs open BTN
+10-4;suited;10;BB;;vs open BTN
+10-3;suited;10;BB;;vs open BTN
+10-2;suited;10;BB;;vs open BTN
+10-9;non suited;10;BB;;vs open BTN
+10-8;non suited;10;BB;;vs open BTN
+10-7;non suited;10;BB;;vs open BTN
+10-6;non suited;10;BB;;vs open BTN
+10-5;non suited;10;BB;;vs open BTN
+10-4;non suited;10;BB;;vs open BTN
+10-3;non suited;10;BB;;vs open BTN
+10-2;non suited;10;BB;;vs open BTN
+9-9;Pairé;10;BB;;vs open BTN
+9-8;suited;10;BB;;vs open BTN
+9-7;suited;10;BB;;vs open BTN
+9-6;suited;10;BB;;vs open BTN
+9-5;suited;10;BB;;vs open BTN
+9-4;suited;10;BB;;vs open BTN
+9-3;suited;10;BB;;vs open BTN
+9-2;suited;10;BB;;vs open BTN
+9-8;non suited;10;BB;;vs open BTN
+9-7;non suited;10;BB;;vs open BTN
+9-6;non suited;10;BB;;vs open BTN
+9-5;non suited;10;BB;;vs open BTN
+9-4;non suited;10;BB;;vs open BTN
+9-3;non suited;10;BB;;vs open BTN
+9-2;non suited;10;BB;;vs open BTN
+8-8;Pairé;10;BB;;vs open BTN
+8-7;suited;10;BB;;vs open BTN
+8-6;suited;10;BB;;vs open BTN
+8-5;suited;10;BB;;vs open BTN
+8-4;suited;10;BB;;vs open BTN
+8-3;suited;10;BB;;vs open BTN
+8-2;suited;10;BB;;vs open BTN
+8-7;non suited;10;BB;;vs open BTN
+8-6;non suited;10;BB;;vs open BTN
+8-5;non suited;10;BB;;vs open BTN
+8-4;non suited;10;BB;;vs open BTN
+8-3;non suited;10;BB;;vs open BTN
+8-2;non suited;10;BB;;vs open BTN
+7-7;Pairé;10;BB;;vs open BTN
+7-6;suited;10;BB;;vs open BTN
+7-5;suited;10;BB;;vs open BTN
+7-4;suited;10;BB;;vs open BTN
+7-3;suited;10;BB;;vs open BTN
+7-2;suited;10;BB;;vs open BTN
+7-6;non suited;10;BB;;vs open BTN
+7-5;non suited;10;BB;;vs open BTN
+7-4;non suited;10;BB;;vs open BTN
+7-3;non suited;10;BB;;vs open BTN
+7-2;non suited;10;BB;;vs open BTN
+6-6;Pairé;10;BB;;vs open BTN
+6-5;suited;10;BB;;vs open BTN
+6-4;suited;10;BB;;vs open BTN
+6-3;suited;10;BB;;vs open BTN
+6-2;suited;10;BB;;vs open BTN
+6-5;non suited;10;BB;;vs open BTN
+6-4;non suited;10;BB;;vs open BTN
+6-3;non suited;10;BB;;vs open BTN
+6-2;non suited;10;BB;;vs open BTN
+5-5;Pairé;10;BB;;vs open BTN
+5-4;suited;10;BB;;vs open BTN
+5-3;suited;10;BB;;vs open BTN
+5-2;suited;10;BB;;vs open BTN
+5-4;non suited;10;BB;;vs open BTN
+5-3;non suited;10;BB;;vs open BTN
+5-2;non suited;10;BB;;vs open BTN
+4-4;Pairé;10;BB;;vs open BTN
+4-3;suited;10;BB;;vs open BTN
+4-2;suited;10;BB;;vs open BTN
+4-3;non suited;10;BB;;vs open BTN
+4-2;non suited;10;BB;;vs open BTN
+3-3;Pairé;10;BB;;vs open BTN
+3-2;suited;10;BB;;vs open BTN
+3-2;non suited;10;BB;;vs open BTN
+2-2;Pairé;10;BB;;vs open BTN
+A-A;Pairé;10;BB;;vs open CO
+A-K;suited;10;BB;;vs open CO
+A-Q;suited;10;BB;;vs open CO
+A-J;suited;10;BB;;vs open CO
+A-10;suited;10;BB;;vs open CO
+A-9;suited;10;BB;;vs open CO
+A-8;suited;10;BB;;vs open CO
+A-7;suited;10;BB;;vs open CO
+A-6;suited;10;BB;;vs open CO
+A-5;suited;10;BB;;vs open CO
+A-4;suited;10;BB;;vs open CO
+A-3;suited;10;BB;;vs open CO
+A-2;suited;10;BB;;vs open CO
+A-K;non suited;10;BB;;vs open CO
+A-Q;non suited;10;BB;;vs open CO
+A-J;non suited;10;BB;;vs open CO
+A-10;non suited;10;BB;;vs open CO
+A-9;non suited;10;BB;;vs open CO
+A-8;non suited;10;BB;;vs open CO
+A-7;non suited;10;BB;;vs open CO
+A-6;non suited;10;BB;;vs open CO
+A-5;non suited;10;BB;;vs open CO
+A-4;non suited;10;BB;;vs open CO
+A-3;non suited;10;BB;;vs open CO
+A-2;non suited;10;BB;;vs open CO
+K-K;Pairé;10;BB;;vs open CO
+K-Q;suited;10;BB;;vs open CO
+K-J;suited;10;BB;;vs open CO
+K-10;suited;10;BB;;vs open CO
+K-9;suited;10;BB;;vs open CO
+K-8;suited;10;BB;;vs open CO
+K-7;suited;10;BB;;vs open CO
+K-6;suited;10;BB;;vs open CO
+K-5;suited;10;BB;;vs open CO
+K-4;suited;10;BB;;vs open CO
+K-3;suited;10;BB;;vs open CO
+K-2;suited;10;BB;;vs open CO
+K-Q;non suited;10;BB;;vs open CO
+K-J;non suited;10;BB;;vs open CO
+K-10;non suited;10;BB;;vs open CO
+K-9;non suited;10;BB;;vs open CO
+K-8;non suited;10;BB;;vs open CO
+K-7;non suited;10;BB;;vs open CO
+K-6;non suited;10;BB;;vs open CO
+K-5;non suited;10;BB;;vs open CO
+K-4;non suited;10;BB;;vs open CO
+K-3;non suited;10;BB;;vs open CO
+K-2;non suited;10;BB;;vs open CO
+Q-Q;Pairé;10;BB;;vs open CO
+Q-J;suited;10;BB;;vs open CO
+Q-10;suited;10;BB;;vs open CO
+Q-9;suited;10;BB;;vs open CO
+Q-8;suited;10;BB;;vs open CO
+Q-7;suited;10;BB;;vs open CO
+Q-6;suited;10;BB;;vs open CO
+Q-5;suited;10;BB;;vs open CO
+Q-4;suited;10;BB;;vs open CO
+Q-3;suited;10;BB;;vs open CO
+Q-2;suited;10;BB;;vs open CO
+Q-J;non suited;10;BB;;vs open CO
+Q-10;non suited;10;BB;;vs open CO
+Q-9;non suited;10;BB;;vs open CO
+Q-8;non suited;10;BB;;vs open CO
+Q-7;non suited;10;BB;;vs open CO
+Q-6;non suited;10;BB;;vs open CO
+Q-5;non suited;10;BB;;vs open CO
+Q-4;non suited;10;BB;;vs open CO
+Q-3;non suited;10;BB;;vs open CO
+Q-2;non suited;10;BB;;vs open CO
+J-J;Pairé;10;BB;;vs open CO
+J-10;suited;10;BB;;vs open CO
+J-9;suited;10;BB;;vs open CO
+J-8;suited;10;BB;;vs open CO
+J-7;suited;10;BB;;vs open CO
+J-6;suited;10;BB;;vs open CO
+J-5;suited;10;BB;;vs open CO
+J-4;suited;10;BB;;vs open CO
+J-3;suited;10;BB;;vs open CO
+J-2;suited;10;BB;;vs open CO
+J-10;non suited;10;BB;;vs open CO
+J-9;non suited;10;BB;;vs open CO
+J-8;non suited;10;BB;;vs open CO
+J-7;non suited;10;BB;;vs open CO
+J-6;non suited;10;BB;;vs open CO
+J-5;non suited;10;BB;;vs open CO
+J-4;non suited;10;BB;;vs open CO
+J-3;non suited;10;BB;;vs open CO
+J-2;non suited;10;BB;;vs open CO
+10-10;Pairé;10;BB;;vs open CO
+10-9;suited;10;BB;;vs open CO
+10-8;suited;10;BB;;vs open CO
+10-7;suited;10;BB;;vs open CO
+10-6;suited;10;BB;;vs open CO
+10-5;suited;10;BB;;vs open CO
+10-4;suited;10;BB;;vs open CO
+10-3;suited;10;BB;;vs open CO
+10-2;suited;10;BB;;vs open CO
+10-9;non suited;10;BB;;vs open CO
+10-8;non suited;10;BB;;vs open CO
+10-7;non suited;10;BB;;vs open CO
+10-6;non suited;10;BB;;vs open CO
+10-5;non suited;10;BB;;vs open CO
+10-4;non suited;10;BB;;vs open CO
+10-3;non suited;10;BB;;vs open CO
+10-2;non suited;10;BB;;vs open CO
+9-9;Pairé;10;BB;;vs open CO
+9-8;suited;10;BB;;vs open CO
+9-7;suited;10;BB;;vs open CO
+9-6;suited;10;BB;;vs open CO
+9-5;suited;10;BB;;vs open CO
+9-4;suited;10;BB;;vs open CO
+9-3;suited;10;BB;;vs open CO
+9-2;suited;10;BB;;vs open CO
+9-8;non suited;10;BB;;vs open CO
+9-7;non suited;10;BB;;vs open CO
+9-6;non suited;10;BB;;vs open CO
+9-5;non suited;10;BB;;vs open CO
+9-4;non suited;10;BB;;vs open CO
+9-3;non suited;10;BB;;vs open CO
+9-2;non suited;10;BB;;vs open CO
+8-8;Pairé;10;BB;;vs open CO
+8-7;suited;10;BB;;vs open CO
+8-6;suited;10;BB;;vs open CO
+8-5;suited;10;BB;;vs open CO
+8-4;suited;10;BB;;vs open CO
+8-3;suited;10;BB;;vs open CO
+8-2;suited;10;BB;;vs open CO
+8-7;non suited;10;BB;;vs open CO
+8-6;non suited;10;BB;;vs open CO
+8-5;non suited;10;BB;;vs open CO
+8-4;non suited;10;BB;;vs open CO
+8-3;non suited;10;BB;;vs open CO
+8-2;non suited;10;BB;;vs open CO
+7-7;Pairé;10;BB;;vs open CO
+7-6;suited;10;BB;;vs open CO
+7-5;suited;10;BB;;vs open CO
+7-4;suited;10;BB;;vs open CO
+7-3;suited;10;BB;;vs open CO
+7-2;suited;10;BB;;vs open CO
+7-6;non suited;10;BB;;vs open CO
+7-5;non suited;10;BB;;vs open CO
+7-4;non suited;10;BB;;vs open CO
+7-3;non suited;10;BB;;vs open CO
+7-2;non suited;10;BB;;vs open CO
+6-6;Pairé;10;BB;;vs open CO
+6-5;suited;10;BB;;vs open CO
+6-4;suited;10;BB;;vs open CO
+6-3;suited;10;BB;;vs open CO
+6-2;suited;10;BB;;vs open CO
+6-5;non suited;10;BB;;vs open CO
+6-4;non suited;10;BB;;vs open CO
+6-3;non suited;10;BB;;vs open CO
+6-2;non suited;10;BB;;vs open CO
+5-5;Pairé;10;BB;;vs open CO
+5-4;suited;10;BB;;vs open CO
+5-3;suited;10;BB;;vs open CO
+5-2;suited;10;BB;;vs open CO
+5-4;non suited;10;BB;;vs open CO
+5-3;non suited;10;BB;;vs open CO
+5-2;non suited;10;BB;;vs open CO
+4-4;Pairé;10;BB;;vs open CO
+4-3;suited;10;BB;;vs open CO
+4-2;suited;10;BB;;vs open CO
+4-3;non suited;10;BB;;vs open CO
+4-2;non suited;10;BB;;vs open CO
+3-3;Pairé;10;BB;;vs open CO
+3-2;suited;10;BB;;vs open CO
+3-2;non suited;10;BB;;vs open CO
+2-2;Pairé;10;BB;;vs open CO
+A-A;Pairé;10;BB;;vs open early
+A-K;suited;10;BB;;vs open early
+A-Q;suited;10;BB;;vs open early
+A-J;suited;10;BB;;vs open early
+A-10;suited;10;BB;;vs open early
+A-9;suited;10;BB;;vs open early
+A-8;suited;10;BB;;vs open early
+A-7;suited;10;BB;;vs open early
+A-6;suited;10;BB;;vs open early
+A-5;suited;10;BB;;vs open early
+A-4;suited;10;BB;;vs open early
+A-3;suited;10;BB;;vs open early
+A-2;suited;10;BB;;vs open early
+A-K;non suited;10;BB;;vs open early
+A-Q;non suited;10;BB;;vs open early
+A-J;non suited;10;BB;;vs open early
+A-10;non suited;10;BB;;vs open early
+A-9;non suited;10;BB;;vs open early
+A-8;non suited;10;BB;;vs open early
+A-7;non suited;10;BB;;vs open early
+A-6;non suited;10;BB;;vs open early
+A-5;non suited;10;BB;;vs open early
+A-4;non suited;10;BB;;vs open early
+A-3;non suited;10;BB;;vs open early
+A-2;non suited;10;BB;;vs open early
+K-K;Pairé;10;BB;;vs open early
+K-Q;suited;10;BB;;vs open early
+K-J;suited;10;BB;;vs open early
+K-10;suited;10;BB;;vs open early
+K-9;suited;10;BB;;vs open early
+K-8;suited;10;BB;;vs open early
+K-7;suited;10;BB;;vs open early
+K-6;suited;10;BB;;vs open early
+K-5;suited;10;BB;;vs open early
+K-4;suited;10;BB;;vs open early
+K-3;suited;10;BB;;vs open early
+K-2;suited;10;BB;;vs open early
+K-Q;non suited;10;BB;;vs open early
+K-J;non suited;10;BB;;vs open early
+K-10;non suited;10;BB;;vs open early
+K-9;non suited;10;BB;;vs open early
+K-8;non suited;10;BB;;vs open early
+K-7;non suited;10;BB;;vs open early
+K-6;non suited;10;BB;;vs open early
+K-5;non suited;10;BB;;vs open early
+K-4;non suited;10;BB;;vs open early
+K-3;non suited;10;BB;;vs open early
+K-2;non suited;10;BB;;vs open early
+Q-Q;Pairé;10;BB;;vs open early
+Q-J;suited;10;BB;;vs open early
+Q-10;suited;10;BB;;vs open early
+Q-9;suited;10;BB;;vs open early
+Q-8;suited;10;BB;;vs open early
+Q-7;suited;10;BB;;vs open early
+Q-6;suited;10;BB;;vs open early
+Q-5;suited;10;BB;;vs open early
+Q-4;suited;10;BB;;vs open early
+Q-3;suited;10;BB;;vs open early
+Q-2;suited;10;BB;;vs open early
+Q-J;non suited;10;BB;;vs open early
+Q-10;non suited;10;BB;;vs open early
+Q-9;non suited;10;BB;;vs open early
+Q-8;non suited;10;BB;;vs open early
+Q-7;non suited;10;BB;;vs open early
+Q-6;non suited;10;BB;;vs open early
+Q-5;non suited;10;BB;;vs open early
+Q-4;non suited;10;BB;;vs open early
+Q-3;non suited;10;BB;;vs open early
+Q-2;non suited;10;BB;;vs open early
+J-J;Pairé;10;BB;;vs open early
+J-10;suited;10;BB;;vs open early
+J-9;suited;10;BB;;vs open early
+J-8;suited;10;BB;;vs open early
+J-7;suited;10;BB;;vs open early
+J-6;suited;10;BB;;vs open early
+J-5;suited;10;BB;;vs open early
+J-4;suited;10;BB;;vs open early
+J-3;suited;10;BB;;vs open early
+J-2;suited;10;BB;;vs open early
+J-10;non suited;10;BB;;vs open early
+J-9;non suited;10;BB;;vs open early
+J-8;non suited;10;BB;;vs open early
+J-7;non suited;10;BB;;vs open early
+J-6;non suited;10;BB;;vs open early
+J-5;non suited;10;BB;;vs open early
+J-4;non suited;10;BB;;vs open early
+J-3;non suited;10;BB;;vs open early
+J-2;non suited;10;BB;;vs open early
+10-10;Pairé;10;BB;;vs open early
+10-9;suited;10;BB;;vs open early
+10-8;suited;10;BB;;vs open early
+10-7;suited;10;BB;;vs open early
+10-6;suited;10;BB;;vs open early
+10-5;suited;10;BB;;vs open early
+10-4;suited;10;BB;;vs open early
+10-3;suited;10;BB;;vs open early
+10-2;suited;10;BB;;vs open early
+10-9;non suited;10;BB;;vs open early
+10-8;non suited;10;BB;;vs open early
+10-7;non suited;10;BB;;vs open early
+10-6;non suited;10;BB;;vs open early
+10-5;non suited;10;BB;;vs open early
+10-4;non suited;10;BB;;vs open early
+10-3;non suited;10;BB;;vs open early
+10-2;non suited;10;BB;;vs open early
+9-9;Pairé;10;BB;;vs open early
+9-8;suited;10;BB;;vs open early
+9-7;suited;10;BB;;vs open early
+9-6;suited;10;BB;;vs open early
+9-5;suited;10;BB;;vs open early
+9-4;suited;10;BB;;vs open early
+9-3;suited;10;BB;;vs open early
+9-2;suited;10;BB;;vs open early
+9-8;non suited;10;BB;;vs open early
+9-7;non suited;10;BB;;vs open early
+9-6;non suited;10;BB;;vs open early
+9-5;non suited;10;BB;;vs open early
+9-4;non suited;10;BB;;vs open early
+9-3;non suited;10;BB;;vs open early
+9-2;non suited;10;BB;;vs open early
+8-8;Pairé;10;BB;;vs open early
+8-7;suited;10;BB;;vs open early
+8-6;suited;10;BB;;vs open early
+8-5;suited;10;BB;;vs open early
+8-4;suited;10;BB;;vs open early
+8-3;suited;10;BB;;vs open early
+8-2;suited;10;BB;;vs open early
+8-7;non suited;10;BB;;vs open early
+8-6;non suited;10;BB;;vs open early
+8-5;non suited;10;BB;;vs open early
+8-4;non suited;10;BB;;vs open early
+8-3;non suited;10;BB;;vs open early
+8-2;non suited;10;BB;;vs open early
+7-7;Pairé;10;BB;;vs open early
+7-6;suited;10;BB;;vs open early
+7-5;suited;10;BB;;vs open early
+7-4;suited;10;BB;;vs open early
+7-3;suited;10;BB;;vs open early
+7-2;suited;10;BB;;vs open early
+7-6;non suited;10;BB;;vs open early
+7-5;non suited;10;BB;;vs open early
+7-4;non suited;10;BB;;vs open early
+7-3;non suited;10;BB;;vs open early
+7-2;non suited;10;BB;;vs open early
+6-6;Pairé;10;BB;;vs open early
+6-5;suited;10;BB;;vs open early
+6-4;suited;10;BB;;vs open early
+6-3;suited;10;BB;;vs open early
+6-2;suited;10;BB;;vs open early
+6-5;non suited;10;BB;;vs open early
+6-4;non suited;10;BB;;vs open early
+6-3;non suited;10;BB;;vs open early
+6-2;non suited;10;BB;;vs open early
+5-5;Pairé;10;BB;;vs open early
+5-4;suited;10;BB;;vs open early
+5-3;suited;10;BB;;vs open early
+5-2;suited;10;BB;;vs open early
+5-4;non suited;10;BB;;vs open early
+5-3;non suited;10;BB;;vs open early
+5-2;non suited;10;BB;;vs open early
+4-4;Pairé;10;BB;;vs open early
+4-3;suited;10;BB;;vs open early
+4-2;suited;10;BB;;vs open early
+4-3;non suited;10;BB;;vs open early
+4-2;non suited;10;BB;;vs open early
+3-3;Pairé;10;BB;;vs open early
+3-2;suited;10;BB;;vs open early
+3-2;non suited;10;BB;;vs open early
+2-2;Pairé;10;BB;;vs open early
+A-A;Pairé;15;BB;;vs open BTN
+A-K;suited;15;BB;;vs open BTN
+A-Q;suited;15;BB;;vs open BTN
+A-J;suited;15;BB;;vs open BTN
+A-10;suited;15;BB;;vs open BTN
+A-9;suited;15;BB;;vs open BTN
+A-8;suited;15;BB;;vs open BTN
+A-7;suited;15;BB;;vs open BTN
+A-6;suited;15;BB;;vs open BTN
+A-5;suited;15;BB;;vs open BTN
+A-4;suited;15;BB;;vs open BTN
+A-3;suited;15;BB;;vs open BTN
+A-2;suited;15;BB;;vs open BTN
+A-K;non suited;15;BB;;vs open BTN
+A-Q;non suited;15;BB;;vs open BTN
+A-J;non suited;15;BB;;vs open BTN
+A-10;non suited;15;BB;;vs open BTN
+A-9;non suited;15;BB;;vs open BTN
+A-8;non suited;15;BB;;vs open BTN
+A-7;non suited;15;BB;;vs open BTN
+A-6;non suited;15;BB;;vs open BTN
+A-5;non suited;15;BB;;vs open BTN
+A-4;non suited;15;BB;;vs open BTN
+A-3;non suited;15;BB;;vs open BTN
+A-2;non suited;15;BB;;vs open BTN
+K-K;Pairé;15;BB;;vs open BTN
+K-Q;suited;15;BB;;vs open BTN
+K-J;suited;15;BB;;vs open BTN
+K-10;suited;15;BB;;vs open BTN
+K-9;suited;15;BB;;vs open BTN
+K-8;suited;15;BB;;vs open BTN
+K-7;suited;15;BB;;vs open BTN
+K-6;suited;15;BB;;vs open BTN
+K-5;suited;15;BB;;vs open BTN
+K-4;suited;15;BB;;vs open BTN
+K-3;suited;15;BB;;vs open BTN
+K-2;suited;15;BB;;vs open BTN
+K-Q;non suited;15;BB;;vs open BTN
+K-J;non suited;15;BB;;vs open BTN
+K-10;non suited;15;BB;;vs open BTN
+K-9;non suited;15;BB;;vs open BTN
+K-8;non suited;15;BB;;vs open BTN
+K-7;non suited;15;BB;;vs open BTN
+K-6;non suited;15;BB;;vs open BTN
+K-5;non suited;15;BB;;vs open BTN
+K-4;non suited;15;BB;;vs open BTN
+K-3;non suited;15;BB;;vs open BTN
+K-2;non suited;15;BB;;vs open BTN
+Q-Q;Pairé;15;BB;;vs open BTN
+Q-J;suited;15;BB;;vs open BTN
+Q-10;suited;15;BB;;vs open BTN
+Q-9;suited;15;BB;;vs open BTN
+Q-8;suited;15;BB;;vs open BTN
+Q-7;suited;15;BB;;vs open BTN
+Q-6;suited;15;BB;;vs open BTN
+Q-5;suited;15;BB;;vs open BTN
+Q-4;suited;15;BB;;vs open BTN
+Q-3;suited;15;BB;;vs open BTN
+Q-2;suited;15;BB;;vs open BTN
+Q-J;non suited;15;BB;;vs open BTN
+Q-10;non suited;15;BB;;vs open BTN
+Q-9;non suited;15;BB;;vs open BTN
+Q-8;non suited;15;BB;;vs open BTN
+Q-7;non suited;15;BB;;vs open BTN
+Q-6;non suited;15;BB;;vs open BTN
+Q-5;non suited;15;BB;;vs open BTN
+Q-4;non suited;15;BB;;vs open BTN
+Q-3;non suited;15;BB;;vs open BTN
+Q-2;non suited;15;BB;;vs open BTN
+J-J;Pairé;15;BB;;vs open BTN
+J-10;suited;15;BB;;vs open BTN
+J-9;suited;15;BB;;vs open BTN
+J-8;suited;15;BB;;vs open BTN
+J-7;suited;15;BB;;vs open BTN
+J-6;suited;15;BB;;vs open BTN
+J-5;suited;15;BB;;vs open BTN
+J-4;suited;15;BB;;vs open BTN
+J-3;suited;15;BB;;vs open BTN
+J-2;suited;15;BB;;vs open BTN
+J-10;non suited;15;BB;;vs open BTN
+J-9;non suited;15;BB;;vs open BTN
+J-8;non suited;15;BB;;vs open BTN
+J-7;non suited;15;BB;;vs open BTN
+J-6;non suited;15;BB;;vs open BTN
+J-5;non suited;15;BB;;vs open BTN
+J-4;non suited;15;BB;;vs open BTN
+J-3;non suited;15;BB;;vs open BTN
+J-2;non suited;15;BB;;vs open BTN
+10-10;Pairé;15;BB;;vs open BTN
+10-9;suited;15;BB;;vs open BTN
+10-8;suited;15;BB;;vs open BTN
+10-7;suited;15;BB;;vs open BTN
+10-6;suited;15;BB;;vs open BTN
+10-5;suited;15;BB;;vs open BTN
+10-4;suited;15;BB;;vs open BTN
+10-3;suited;15;BB;;vs open BTN
+10-2;suited;15;BB;;vs open BTN
+10-9;non suited;15;BB;;vs open BTN
+10-8;non suited;15;BB;;vs open BTN
+10-7;non suited;15;BB;;vs open BTN
+10-6;non suited;15;BB;;vs open BTN
+10-5;non suited;15;BB;;vs open BTN
+10-4;non suited;15;BB;;vs open BTN
+10-3;non suited;15;BB;;vs open BTN
+10-2;non suited;15;BB;;vs open BTN
+9-9;Pairé;15;BB;;vs open BTN
+9-8;suited;15;BB;;vs open BTN
+9-7;suited;15;BB;;vs open BTN
+9-6;suited;15;BB;;vs open BTN
+9-5;suited;15;BB;;vs open BTN
+9-4;suited;15;BB;;vs open BTN
+9-3;suited;15;BB;;vs open BTN
+9-2;suited;15;BB;;vs open BTN
+9-8;non suited;15;BB;;vs open BTN
+9-7;non suited;15;BB;;vs open BTN
+9-6;non suited;15;BB;;vs open BTN
+9-5;non suited;15;BB;;vs open BTN
+9-4;non suited;15;BB;;vs open BTN
+9-3;non suited;15;BB;;vs open BTN
+9-2;non suited;15;BB;;vs open BTN
+8-8;Pairé;15;BB;;vs open BTN
+8-7;suited;15;BB;;vs open BTN
+8-6;suited;15;BB;;vs open BTN
+8-5;suited;15;BB;;vs open BTN
+8-4;suited;15;BB;;vs open BTN
+8-3;suited;15;BB;;vs open BTN
+8-2;suited;15;BB;;vs open BTN
+8-7;non suited;15;BB;;vs open BTN
+8-6;non suited;15;BB;;vs open BTN
+8-5;non suited;15;BB;;vs open BTN
+8-4;non suited;15;BB;;vs open BTN
+8-3;non suited;15;BB;;vs open BTN
+8-2;non suited;15;BB;;vs open BTN
+7-7;Pairé;15;BB;;vs open BTN
+7-6;suited;15;BB;;vs open BTN
+7-5;suited;15;BB;;vs open BTN
+7-4;suited;15;BB;;vs open BTN
+7-3;suited;15;BB;;vs open BTN
+7-2;suited;15;BB;;vs open BTN
+7-6;non suited;15;BB;;vs open BTN
+7-5;non suited;15;BB;;vs open BTN
+7-4;non suited;15;BB;;vs open BTN
+7-3;non suited;15;BB;;vs open BTN
+7-2;non suited;15;BB;;vs open BTN
+6-6;Pairé;15;BB;;vs open BTN
+6-5;suited;15;BB;;vs open BTN
+6-4;suited;15;BB;;vs open BTN
+6-3;suited;15;BB;;vs open BTN
+6-2;suited;15;BB;;vs open BTN
+6-5;non suited;15;BB;;vs open BTN
+6-4;non suited;15;BB;;vs open BTN
+6-3;non suited;15;BB;;vs open BTN
+6-2;non suited;15;BB;;vs open BTN
+5-5;Pairé;15;BB;;vs open BTN
+5-4;suited;15;BB;;vs open BTN
+5-3;suited;15;BB;;vs open BTN
+5-2;suited;15;BB;;vs open BTN
+5-4;non suited;15;BB;;vs open BTN
+5-3;non suited;15;BB;;vs open BTN
+5-2;non suited;15;BB;;vs open BTN
+4-4;Pairé;15;BB;;vs open BTN
+4-3;suited;15;BB;;vs open BTN
+4-2;suited;15;BB;;vs open BTN
+4-3;non suited;15;BB;;vs open BTN
+4-2;non suited;15;BB;;vs open BTN
+3-3;Pairé;15;BB;;vs open BTN
+3-2;suited;15;BB;;vs open BTN
+3-2;non suited;15;BB;;vs open BTN
+2-2;Pairé;15;BB;;vs open BTN
+A-A;Pairé;15;BB;;vs open CO
+A-K;suited;15;BB;;vs open CO
+A-Q;suited;15;BB;;vs open CO
+A-J;suited;15;BB;;vs open CO
+A-10;suited;15;BB;;vs open CO
+A-9;suited;15;BB;;vs open CO
+A-8;suited;15;BB;;vs open CO
+A-7;suited;15;BB;;vs open CO
+A-6;suited;15;BB;;vs open CO
+A-5;suited;15;BB;;vs open CO
+A-4;suited;15;BB;;vs open CO
+A-3;suited;15;BB;;vs open CO
+A-2;suited;15;BB;;vs open CO
+A-K;non suited;15;BB;;vs open CO
+A-Q;non suited;15;BB;;vs open CO
+A-J;non suited;15;BB;;vs open CO
+A-10;non suited;15;BB;;vs open CO
+A-9;non suited;15;BB;;vs open CO
+A-8;non suited;15;BB;;vs open CO
+A-7;non suited;15;BB;;vs open CO
+A-6;non suited;15;BB;;vs open CO
+A-5;non suited;15;BB;;vs open CO
+A-4;non suited;15;BB;;vs open CO
+A-3;non suited;15;BB;;vs open CO
+A-2;non suited;15;BB;;vs open CO
+K-K;Pairé;15;BB;;vs open CO
+K-Q;suited;15;BB;;vs open CO
+K-J;suited;15;BB;;vs open CO
+K-10;suited;15;BB;;vs open CO
+K-9;suited;15;BB;;vs open CO
+K-8;suited;15;BB;;vs open CO
+K-7;suited;15;BB;;vs open CO
+K-6;suited;15;BB;;vs open CO
+K-5;suited;15;BB;;vs open CO
+K-4;suited;15;BB;;vs open CO
+K-3;suited;15;BB;;vs open CO
+K-2;suited;15;BB;;vs open CO
+K-Q;non suited;15;BB;;vs open CO
+K-J;non suited;15;BB;;vs open CO
+K-10;non suited;15;BB;;vs open CO
+K-9;non suited;15;BB;;vs open CO
+K-8;non suited;15;BB;;vs open CO
+K-7;non suited;15;BB;;vs open CO
+K-6;non suited;15;BB;;vs open CO
+K-5;non suited;15;BB;;vs open CO
+K-4;non suited;15;BB;;vs open CO
+K-3;non suited;15;BB;;vs open CO
+K-2;non suited;15;BB;;vs open CO
+Q-Q;Pairé;15;BB;;vs open CO
+Q-J;suited;15;BB;;vs open CO
+Q-10;suited;15;BB;;vs open CO
+Q-9;suited;15;BB;;vs open CO
+Q-8;suited;15;BB;;vs open CO
+Q-7;suited;15;BB;;vs open CO
+Q-6;suited;15;BB;;vs open CO
+Q-5;suited;15;BB;;vs open CO
+Q-4;suited;15;BB;;vs open CO
+Q-3;suited;15;BB;;vs open CO
+Q-2;suited;15;BB;;vs open CO
+Q-J;non suited;15;BB;;vs open CO
+Q-10;non suited;15;BB;;vs open CO
+Q-9;non suited;15;BB;;vs open CO
+Q-8;non suited;15;BB;;vs open CO
+Q-7;non suited;15;BB;;vs open CO
+Q-6;non suited;15;BB;;vs open CO
+Q-5;non suited;15;BB;;vs open CO
+Q-4;non suited;15;BB;;vs open CO
+Q-3;non suited;15;BB;;vs open CO
+Q-2;non suited;15;BB;;vs open CO
+J-J;Pairé;15;BB;;vs open CO
+J-10;suited;15;BB;;vs open CO
+J-9;suited;15;BB;;vs open CO
+J-8;suited;15;BB;;vs open CO
+J-7;suited;15;BB;;vs open CO
+J-6;suited;15;BB;;vs open CO
+J-5;suited;15;BB;;vs open CO
+J-4;suited;15;BB;;vs open CO
+J-3;suited;15;BB;;vs open CO
+J-2;suited;15;BB;;vs open CO
+J-10;non suited;15;BB;;vs open CO
+J-9;non suited;15;BB;;vs open CO
+J-8;non suited;15;BB;;vs open CO
+J-7;non suited;15;BB;;vs open CO
+J-6;non suited;15;BB;;vs open CO
+J-5;non suited;15;BB;;vs open CO
+J-4;non suited;15;BB;;vs open CO
+J-3;non suited;15;BB;;vs open CO
+J-2;non suited;15;BB;;vs open CO
+10-10;Pairé;15;BB;;vs open CO
+10-9;suited;15;BB;;vs open CO
+10-8;suited;15;BB;;vs open CO
+10-7;suited;15;BB;;vs open CO
+10-6;suited;15;BB;;vs open CO
+10-5;suited;15;BB;;vs open CO
+10-4;suited;15;BB;;vs open CO
+10-3;suited;15;BB;;vs open CO
+10-2;suited;15;BB;;vs open CO
+10-9;non suited;15;BB;;vs open CO
+10-8;non suited;15;BB;;vs open CO
+10-7;non suited;15;BB;;vs open CO
+10-6;non suited;15;BB;;vs open CO
+10-5;non suited;15;BB;;vs open CO
+10-4;non suited;15;BB;;vs open CO
+10-3;non suited;15;BB;;vs open CO
+10-2;non suited;15;BB;;vs open CO
+9-9;Pairé;15;BB;;vs open CO
+9-8;suited;15;BB;;vs open CO
+9-7;suited;15;BB;;vs open CO
+9-6;suited;15;BB;;vs open CO
+9-5;suited;15;BB;;vs open CO
+9-4;suited;15;BB;;vs open CO
+9-3;suited;15;BB;;vs open CO
+9-2;suited;15;BB;;vs open CO
+9-8;non suited;15;BB;;vs open CO
+9-7;non suited;15;BB;;vs open CO
+9-6;non suited;15;BB;;vs open CO
+9-5;non suited;15;BB;;vs open CO
+9-4;non suited;15;BB;;vs open CO
+9-3;non suited;15;BB;;vs open CO
+9-2;non suited;15;BB;;vs open CO
+8-8;Pairé;15;BB;;vs open CO
+8-7;suited;15;BB;;vs open CO
+8-6;suited;15;BB;;vs open CO
+8-5;suited;15;BB;;vs open CO
+8-4;suited;15;BB;;vs open CO
+8-3;suited;15;BB;;vs open CO
+8-2;suited;15;BB;;vs open CO
+8-7;non suited;15;BB;;vs open CO
+8-6;non suited;15;BB;;vs open CO
+8-5;non suited;15;BB;;vs open CO
+8-4;non suited;15;BB;;vs open CO
+8-3;non suited;15;BB;;vs open CO
+8-2;non suited;15;BB;;vs open CO
+7-7;Pairé;15;BB;;vs open CO
+7-6;suited;15;BB;;vs open CO
+7-5;suited;15;BB;;vs open CO
+7-4;suited;15;BB;;vs open CO
+7-3;suited;15;BB;;vs open CO
+7-2;suited;15;BB;;vs open CO
+7-6;non suited;15;BB;;vs open CO
+7-5;non suited;15;BB;;vs open CO
+7-4;non suited;15;BB;;vs open CO
+7-3;non suited;15;BB;;vs open CO
+7-2;non suited;15;BB;;vs open CO
+6-6;Pairé;15;BB;;vs open CO
+6-5;suited;15;BB;;vs open CO
+6-4;suited;15;BB;;vs open CO
+6-3;suited;15;BB;;vs open CO
+6-2;suited;15;BB;;vs open CO
+6-5;non suited;15;BB;;vs open CO
+6-4;non suited;15;BB;;vs open CO
+6-3;non suited;15;BB;;vs open CO
+6-2;non suited;15;BB;;vs open CO
+5-5;Pairé;15;BB;;vs open CO
+5-4;suited;15;BB;;vs open CO
+5-3;suited;15;BB;;vs open CO
+5-2;suited;15;BB;;vs open CO
+5-4;non suited;15;BB;;vs open CO
+5-3;non suited;15;BB;;vs open CO
+5-2;non suited;15;BB;;vs open CO
+4-4;Pairé;15;BB;;vs open CO
+4-3;suited;15;BB;;vs open CO
+4-2;suited;15;BB;;vs open CO
+4-3;non suited;15;BB;;vs open CO
+4-2;non suited;15;BB;;vs open CO
+3-3;Pairé;15;BB;;vs open CO
+3-2;suited;15;BB;;vs open CO
+3-2;non suited;15;BB;;vs open CO
+2-2;Pairé;15;BB;;vs open CO
+A-A;Pairé;15;BB;;vs open early
+A-K;suited;15;BB;;vs open early
+A-Q;suited;15;BB;;vs open early
+A-J;suited;15;BB;;vs open early
+A-10;suited;15;BB;;vs open early
+A-9;suited;15;BB;;vs open early
+A-8;suited;15;BB;;vs open early
+A-7;suited;15;BB;;vs open early
+A-6;suited;15;BB;;vs open early
+A-5;suited;15;BB;;vs open early
+A-4;suited;15;BB;;vs open early
+A-3;suited;15;BB;;vs open early
+A-2;suited;15;BB;;vs open early
+A-K;non suited;15;BB;;vs open early
+A-Q;non suited;15;BB;;vs open early
+A-J;non suited;15;BB;;vs open early
+A-10;non suited;15;BB;;vs open early
+A-9;non suited;15;BB;;vs open early
+A-8;non suited;15;BB;;vs open early
+A-7;non suited;15;BB;;vs open early
+A-6;non suited;15;BB;;vs open early
+A-5;non suited;15;BB;;vs open early
+A-4;non suited;15;BB;;vs open early
+A-3;non suited;15;BB;;vs open early
+A-2;non suited;15;BB;;vs open early
+K-K;Pairé;15;BB;;vs open early
+K-Q;suited;15;BB;;vs open early
+K-J;suited;15;BB;;vs open early
+K-10;suited;15;BB;;vs open early
+K-9;suited;15;BB;;vs open early
+K-8;suited;15;BB;;vs open early
+K-7;suited;15;BB;;vs open early
+K-6;suited;15;BB;;vs open early
+K-5;suited;15;BB;;vs open early
+K-4;suited;15;BB;;vs open early
+K-3;suited;15;BB;;vs open early
+K-2;suited;15;BB;;vs open early
+K-Q;non suited;15;BB;;vs open early
+K-J;non suited;15;BB;;vs open early
+K-10;non suited;15;BB;;vs open early
+K-9;non suited;15;BB;;vs open early
+K-8;non suited;15;BB;;vs open early
+K-7;non suited;15;BB;;vs open early
+K-6;non suited;15;BB;;vs open early
+K-5;non suited;15;BB;;vs open early
+K-4;non suited;15;BB;;vs open early
+K-3;non suited;15;BB;;vs open early
+K-2;non suited;15;BB;;vs open early
+Q-Q;Pairé;15;BB;;vs open early
+Q-J;suited;15;BB;;vs open early
+Q-10;suited;15;BB;;vs open early
+Q-9;suited;15;BB;;vs open early
+Q-8;suited;15;BB;;vs open early
+Q-7;suited;15;BB;;vs open early
+Q-6;suited;15;BB;;vs open early
+Q-5;suited;15;BB;;vs open early
+Q-4;suited;15;BB;;vs open early
+Q-3;suited;15;BB;;vs open early
+Q-2;suited;15;BB;;vs open early
+Q-J;non suited;15;BB;;vs open early
+Q-10;non suited;15;BB;;vs open early
+Q-9;non suited;15;BB;;vs open early
+Q-8;non suited;15;BB;;vs open early
+Q-7;non suited;15;BB;;vs open early
+Q-6;non suited;15;BB;;vs open early
+Q-5;non suited;15;BB;;vs open early
+Q-4;non suited;15;BB;;vs open early
+Q-3;non suited;15;BB;;vs open early
+Q-2;non suited;15;BB;;vs open early
+J-J;Pairé;15;BB;;vs open early
+J-10;suited;15;BB;;vs open early
+J-9;suited;15;BB;;vs open early
+J-8;suited;15;BB;;vs open early
+J-7;suited;15;BB;;vs open early
+J-6;suited;15;BB;;vs open early
+J-5;suited;15;BB;;vs open early
+J-4;suited;15;BB;;vs open early
+J-3;suited;15;BB;;vs open early
+J-2;suited;15;BB;;vs open early
+J-10;non suited;15;BB;;vs open early
+J-9;non suited;15;BB;;vs open early
+J-8;non suited;15;BB;;vs open early
+J-7;non suited;15;BB;;vs open early
+J-6;non suited;15;BB;;vs open early
+J-5;non suited;15;BB;;vs open early
+J-4;non suited;15;BB;;vs open early
+J-3;non suited;15;BB;;vs open early
+J-2;non suited;15;BB;;vs open early
+10-10;Pairé;15;BB;;vs open early
+10-9;suited;15;BB;;vs open early
+10-8;suited;15;BB;;vs open early
+10-7;suited;15;BB;;vs open early
+10-6;suited;15;BB;;vs open early
+10-5;suited;15;BB;;vs open early
+10-4;suited;15;BB;;vs open early
+10-3;suited;15;BB;;vs open early
+10-2;suited;15;BB;;vs open early
+10-9;non suited;15;BB;;vs open early
+10-8;non suited;15;BB;;vs open early
+10-7;non suited;15;BB;;vs open early
+10-6;non suited;15;BB;;vs open early
+10-5;non suited;15;BB;;vs open early
+10-4;non suited;15;BB;;vs open early
+10-3;non suited;15;BB;;vs open early
+10-2;non suited;15;BB;;vs open early
+9-9;Pairé;15;BB;;vs open early
+9-8;suited;15;BB;;vs open early
+9-7;suited;15;BB;;vs open early
+9-6;suited;15;BB;;vs open early
+9-5;suited;15;BB;;vs open early
+9-4;suited;15;BB;;vs open early
+9-3;suited;15;BB;;vs open early
+9-2;suited;15;BB;;vs open early
+9-8;non suited;15;BB;;vs open early
+9-7;non suited;15;BB;;vs open early
+9-6;non suited;15;BB;;vs open early
+9-5;non suited;15;BB;;vs open early
+9-4;non suited;15;BB;;vs open early
+9-3;non suited;15;BB;;vs open early
+9-2;non suited;15;BB;;vs open early
+8-8;Pairé;15;BB;;vs open early
+8-7;suited;15;BB;;vs open early
+8-6;suited;15;BB;;vs open early
+8-5;suited;15;BB;;vs open early
+8-4;suited;15;BB;;vs open early
+8-3;suited;15;BB;;vs open early
+8-2;suited;15;BB;;vs open early
+8-7;non suited;15;BB;;vs open early
+8-6;non suited;15;BB;;vs open early
+8-5;non suited;15;BB;;vs open early
+8-4;non suited;15;BB;;vs open early
+8-3;non suited;15;BB;;vs open early
+8-2;non suited;15;BB;;vs open early
+7-7;Pairé;15;BB;;vs open early
+7-6;suited;15;BB;;vs open early
+7-5;suited;15;BB;;vs open early
+7-4;suited;15;BB;;vs open early
+7-3;suited;15;BB;;vs open early
+7-2;suited;15;BB;;vs open early
+7-6;non suited;15;BB;;vs open early
+7-5;non suited;15;BB;;vs open early
+7-4;non suited;15;BB;;vs open early
+7-3;non suited;15;BB;;vs open early
+7-2;non suited;15;BB;;vs open early
+6-6;Pairé;15;BB;;vs open early
+6-5;suited;15;BB;;vs open early
+6-4;suited;15;BB;;vs open early
+6-3;suited;15;BB;;vs open early
+6-2;suited;15;BB;;vs open early
+6-5;non suited;15;BB;;vs open early
+6-4;non suited;15;BB;;vs open early
+6-3;non suited;15;BB;;vs open early
+6-2;non suited;15;BB;;vs open early
+5-5;Pairé;15;BB;;vs open early
+5-4;suited;15;BB;;vs open early
+5-3;suited;15;BB;;vs open early
+5-2;suited;15;BB;;vs open early
+5-4;non suited;15;BB;;vs open early
+5-3;non suited;15;BB;;vs open early
+5-2;non suited;15;BB;;vs open early
+4-4;Pairé;15;BB;;vs open early
+4-3;suited;15;BB;;vs open early
+4-2;suited;15;BB;;vs open early
+4-3;non suited;15;BB;;vs open early
+4-2;non suited;15;BB;;vs open early
+3-3;Pairé;15;BB;;vs open early
+3-2;suited;15;BB;;vs open early
+3-2;non suited;15;BB;;vs open early
+2-2;Pairé;15;BB;;vs open early
+A-A;Pairé;20;BB;;vs open BTN
+A-K;suited;20;BB;;vs open BTN
+A-Q;suited;20;BB;;vs open BTN
+A-J;suited;20;BB;;vs open BTN
+A-10;suited;20;BB;;vs open BTN
+A-9;suited;20;BB;;vs open BTN
+A-8;suited;20;BB;;vs open BTN
+A-7;suited;20;BB;;vs open BTN
+A-6;suited;20;BB;;vs open BTN
+A-5;suited;20;BB;;vs open BTN
+A-4;suited;20;BB;;vs open BTN
+A-3;suited;20;BB;;vs open BTN
+A-2;suited;20;BB;;vs open BTN
+A-K;non suited;20;BB;;vs open BTN
+A-Q;non suited;20;BB;;vs open BTN
+A-J;non suited;20;BB;;vs open BTN
+A-10;non suited;20;BB;;vs open BTN
+A-9;non suited;20;BB;;vs open BTN
+A-8;non suited;20;BB;;vs open BTN
+A-7;non suited;20;BB;;vs open BTN
+A-6;non suited;20;BB;;vs open BTN
+A-5;non suited;20;BB;;vs open BTN
+A-4;non suited;20;BB;;vs open BTN
+A-3;non suited;20;BB;;vs open BTN
+A-2;non suited;20;BB;;vs open BTN
+K-K;Pairé;20;BB;;vs open BTN
+K-Q;suited;20;BB;;vs open BTN
+K-J;suited;20;BB;;vs open BTN
+K-10;suited;20;BB;;vs open BTN
+K-9;suited;20;BB;;vs open BTN
+K-8;suited;20;BB;;vs open BTN
+K-7;suited;20;BB;;vs open BTN
+K-6;suited;20;BB;;vs open BTN
+K-5;suited;20;BB;;vs open BTN
+K-4;suited;20;BB;;vs open BTN
+K-3;suited;20;BB;;vs open BTN
+K-2;suited;20;BB;;vs open BTN
+K-Q;non suited;20;BB;;vs open BTN
+K-J;non suited;20;BB;;vs open BTN
+K-10;non suited;20;BB;;vs open BTN
+K-9;non suited;20;BB;;vs open BTN
+K-8;non suited;20;BB;;vs open BTN
+K-7;non suited;20;BB;;vs open BTN
+K-6;non suited;20;BB;;vs open BTN
+K-5;non suited;20;BB;;vs open BTN
+K-4;non suited;20;BB;;vs open BTN
+K-3;non suited;20;BB;;vs open BTN
+K-2;non suited;20;BB;;vs open BTN
+Q-Q;Pairé;20;BB;;vs open BTN
+Q-J;suited;20;BB;;vs open BTN
+Q-10;suited;20;BB;;vs open BTN
+Q-9;suited;20;BB;;vs open BTN
+Q-8;suited;20;BB;;vs open BTN
+Q-7;suited;20;BB;;vs open BTN
+Q-6;suited;20;BB;;vs open BTN
+Q-5;suited;20;BB;;vs open BTN
+Q-4;suited;20;BB;;vs open BTN
+Q-3;suited;20;BB;;vs open BTN
+Q-2;suited;20;BB;;vs open BTN
+Q-J;non suited;20;BB;;vs open BTN
+Q-10;non suited;20;BB;;vs open BTN
+Q-9;non suited;20;BB;;vs open BTN
+Q-8;non suited;20;BB;;vs open BTN
+Q-7;non suited;20;BB;;vs open BTN
+Q-6;non suited;20;BB;;vs open BTN
+Q-5;non suited;20;BB;;vs open BTN
+Q-4;non suited;20;BB;;vs open BTN
+Q-3;non suited;20;BB;;vs open BTN
+Q-2;non suited;20;BB;;vs open BTN
+J-J;Pairé;20;BB;;vs open BTN
+J-10;suited;20;BB;;vs open BTN
+J-9;suited;20;BB;;vs open BTN
+J-8;suited;20;BB;;vs open BTN
+J-7;suited;20;BB;;vs open BTN
+J-6;suited;20;BB;;vs open BTN
+J-5;suited;20;BB;;vs open BTN
+J-4;suited;20;BB;;vs open BTN
+J-3;suited;20;BB;;vs open BTN
+J-2;suited;20;BB;;vs open BTN
+J-10;non suited;20;BB;;vs open BTN
+J-9;non suited;20;BB;;vs open BTN
+J-8;non suited;20;BB;;vs open BTN
+J-7;non suited;20;BB;;vs open BTN
+J-6;non suited;20;BB;;vs open BTN
+J-5;non suited;20;BB;;vs open BTN
+J-4;non suited;20;BB;;vs open BTN
+J-3;non suited;20;BB;;vs open BTN
+J-2;non suited;20;BB;;vs open BTN
+10-10;Pairé;20;BB;;vs open BTN
+10-9;suited;20;BB;;vs open BTN
+10-8;suited;20;BB;;vs open BTN
+10-7;suited;20;BB;;vs open BTN
+10-6;suited;20;BB;;vs open BTN
+10-5;suited;20;BB;;vs open BTN
+10-4;suited;20;BB;;vs open BTN
+10-3;suited;20;BB;;vs open BTN
+10-2;suited;20;BB;;vs open BTN
+10-9;non suited;20;BB;;vs open BTN
+10-8;non suited;20;BB;;vs open BTN
+10-7;non suited;20;BB;;vs open BTN
+10-6;non suited;20;BB;;vs open BTN
+10-5;non suited;20;BB;;vs open BTN
+10-4;non suited;20;BB;;vs open BTN
+10-3;non suited;20;BB;;vs open BTN
+10-2;non suited;20;BB;;vs open BTN
+9-9;Pairé;20;BB;;vs open BTN
+9-8;suited;20;BB;;vs open BTN
+9-7;suited;20;BB;;vs open BTN
+9-6;suited;20;BB;;vs open BTN
+9-5;suited;20;BB;;vs open BTN
+9-4;suited;20;BB;;vs open BTN
+9-3;suited;20;BB;;vs open BTN
+9-2;suited;20;BB;;vs open BTN
+9-8;non suited;20;BB;;vs open BTN
+9-7;non suited;20;BB;;vs open BTN
+9-6;non suited;20;BB;;vs open BTN
+9-5;non suited;20;BB;;vs open BTN
+9-4;non suited;20;BB;;vs open BTN
+9-3;non suited;20;BB;;vs open BTN
+9-2;non suited;20;BB;;vs open BTN
+8-8;Pairé;20;BB;;vs open BTN
+8-7;suited;20;BB;;vs open BTN
+8-6;suited;20;BB;;vs open BTN
+8-5;suited;20;BB;;vs open BTN
+8-4;suited;20;BB;;vs open BTN
+8-3;suited;20;BB;;vs open BTN
+8-2;suited;20;BB;;vs open BTN
+8-7;non suited;20;BB;;vs open BTN
+8-6;non suited;20;BB;;vs open BTN
+8-5;non suited;20;BB;;vs open BTN
+8-4;non suited;20;BB;;vs open BTN
+8-3;non suited;20;BB;;vs open BTN
+8-2;non suited;20;BB;;vs open BTN
+7-7;Pairé;20;BB;;vs open BTN
+7-6;suited;20;BB;;vs open BTN
+7-5;suited;20;BB;;vs open BTN
+7-4;suited;20;BB;;vs open BTN
+7-3;suited;20;BB;;vs open BTN
+7-2;suited;20;BB;;vs open BTN
+7-6;non suited;20;BB;;vs open BTN
+7-5;non suited;20;BB;;vs open BTN
+7-4;non suited;20;BB;;vs open BTN
+7-3;non suited;20;BB;;vs open BTN
+7-2;non suited;20;BB;;vs open BTN
+6-6;Pairé;20;BB;;vs open BTN
+6-5;suited;20;BB;;vs open BTN
+6-4;suited;20;BB;;vs open BTN
+6-3;suited;20;BB;;vs open BTN
+6-2;suited;20;BB;;vs open BTN
+6-5;non suited;20;BB;;vs open BTN
+6-4;non suited;20;BB;;vs open BTN
+6-3;non suited;20;BB;;vs open BTN
+6-2;non suited;20;BB;;vs open BTN
+5-5;Pairé;20;BB;;vs open BTN
+5-4;suited;20;BB;;vs open BTN
+5-3;suited;20;BB;;vs open BTN
+5-2;suited;20;BB;;vs open BTN
+5-4;non suited;20;BB;;vs open BTN
+5-3;non suited;20;BB;;vs open BTN
+5-2;non suited;20;BB;;vs open BTN
+4-4;Pairé;20;BB;;vs open BTN
+4-3;suited;20;BB;;vs open BTN
+4-2;suited;20;BB;;vs open BTN
+4-3;non suited;20;BB;;vs open BTN
+4-2;non suited;20;BB;;vs open BTN
+3-3;Pairé;20;BB;;vs open BTN
+3-2;suited;20;BB;;vs open BTN
+3-2;non suited;20;BB;;vs open BTN
+2-2;Pairé;20;BB;;vs open BTN
+A-A;Pairé;20;BB;;vs open CO
+A-K;suited;20;BB;;vs open CO
+A-Q;suited;20;BB;;vs open CO
+A-J;suited;20;BB;;vs open CO
+A-10;suited;20;BB;;vs open CO
+A-9;suited;20;BB;;vs open CO
+A-8;suited;20;BB;;vs open CO
+A-7;suited;20;BB;;vs open CO
+A-6;suited;20;BB;;vs open CO
+A-5;suited;20;BB;;vs open CO
+A-4;suited;20;BB;;vs open CO
+A-3;suited;20;BB;;vs open CO
+A-2;suited;20;BB;;vs open CO
+A-K;non suited;20;BB;;vs open CO
+A-Q;non suited;20;BB;;vs open CO
+A-J;non suited;20;BB;;vs open CO
+A-10;non suited;20;BB;;vs open CO
+A-9;non suited;20;BB;;vs open CO
+A-8;non suited;20;BB;;vs open CO
+A-7;non suited;20;BB;;vs open CO
+A-6;non suited;20;BB;;vs open CO
+A-5;non suited;20;BB;;vs open CO
+A-4;non suited;20;BB;;vs open CO
+A-3;non suited;20;BB;;vs open CO
+A-2;non suited;20;BB;;vs open CO
+K-K;Pairé;20;BB;;vs open CO
+K-Q;suited;20;BB;;vs open CO
+K-J;suited;20;BB;;vs open CO
+K-10;suited;20;BB;;vs open CO
+K-9;suited;20;BB;;vs open CO
+K-8;suited;20;BB;;vs open CO
+K-7;suited;20;BB;;vs open CO
+K-6;suited;20;BB;;vs open CO
+K-5;suited;20;BB;;vs open CO
+K-4;suited;20;BB;;vs open CO
+K-3;suited;20;BB;;vs open CO
+K-2;suited;20;BB;;vs open CO
+K-Q;non suited;20;BB;;vs open CO
+K-J;non suited;20;BB;;vs open CO
+K-10;non suited;20;BB;;vs open CO
+K-9;non suited;20;BB;;vs open CO
+K-8;non suited;20;BB;;vs open CO
+K-7;non suited;20;BB;;vs open CO
+K-6;non suited;20;BB;;vs open CO
+K-5;non suited;20;BB;;vs open CO
+K-4;non suited;20;BB;;vs open CO
+K-3;non suited;20;BB;;vs open CO
+K-2;non suited;20;BB;;vs open CO
+Q-Q;Pairé;20;BB;;vs open CO
+Q-J;suited;20;BB;;vs open CO
+Q-10;suited;20;BB;;vs open CO
+Q-9;suited;20;BB;;vs open CO
+Q-8;suited;20;BB;;vs open CO
+Q-7;suited;20;BB;;vs open CO
+Q-6;suited;20;BB;;vs open CO
+Q-5;suited;20;BB;;vs open CO
+Q-4;suited;20;BB;;vs open CO
+Q-3;suited;20;BB;;vs open CO
+Q-2;suited;20;BB;;vs open CO
+Q-J;non suited;20;BB;;vs open CO
+Q-10;non suited;20;BB;;vs open CO
+Q-9;non suited;20;BB;;vs open CO
+Q-8;non suited;20;BB;;vs open CO
+Q-7;non suited;20;BB;;vs open CO
+Q-6;non suited;20;BB;;vs open CO
+Q-5;non suited;20;BB;;vs open CO
+Q-4;non suited;20;BB;;vs open CO
+Q-3;non suited;20;BB;;vs open CO
+Q-2;non suited;20;BB;;vs open CO
+J-J;Pairé;20;BB;;vs open CO
+J-10;suited;20;BB;;vs open CO
+J-9;suited;20;BB;;vs open CO
+J-8;suited;20;BB;;vs open CO
+J-7;suited;20;BB;;vs open CO
+J-6;suited;20;BB;;vs open CO
+J-5;suited;20;BB;;vs open CO
+J-4;suited;20;BB;;vs open CO
+J-3;suited;20;BB;;vs open CO
+J-2;suited;20;BB;;vs open CO
+J-10;non suited;20;BB;;vs open CO
+J-9;non suited;20;BB;;vs open CO
+J-8;non suited;20;BB;;vs open CO
+J-7;non suited;20;BB;;vs open CO
+J-6;non suited;20;BB;;vs open CO
+J-5;non suited;20;BB;;vs open CO
+J-4;non suited;20;BB;;vs open CO
+J-3;non suited;20;BB;;vs open CO
+J-2;non suited;20;BB;;vs open CO
+10-10;Pairé;20;BB;;vs open CO
+10-9;suited;20;BB;;vs open CO
+10-8;suited;20;BB;;vs open CO
+10-7;suited;20;BB;;vs open CO
+10-6;suited;20;BB;;vs open CO
+10-5;suited;20;BB;;vs open CO
+10-4;suited;20;BB;;vs open CO
+10-3;suited;20;BB;;vs open CO
+10-2;suited;20;BB;;vs open CO
+10-9;non suited;20;BB;;vs open CO
+10-8;non suited;20;BB;;vs open CO
+10-7;non suited;20;BB;;vs open CO
+10-6;non suited;20;BB;;vs open CO
+10-5;non suited;20;BB;;vs open CO
+10-4;non suited;20;BB;;vs open CO
+10-3;non suited;20;BB;;vs open CO
+10-2;non suited;20;BB;;vs open CO
+9-9;Pairé;20;BB;;vs open CO
+9-8;suited;20;BB;;vs open CO
+9-7;suited;20;BB;;vs open CO
+9-6;suited;20;BB;;vs open CO
+9-5;suited;20;BB;;vs open CO
+9-4;suited;20;BB;;vs open CO
+9-3;suited;20;BB;;vs open CO
+9-2;suited;20;BB;;vs open CO
+9-8;non suited;20;BB;;vs open CO
+9-7;non suited;20;BB;;vs open CO
+9-6;non suited;20;BB;;vs open CO
+9-5;non suited;20;BB;;vs open CO
+9-4;non suited;20;BB;;vs open CO
+9-3;non suited;20;BB;;vs open CO
+9-2;non suited;20;BB;;vs open CO
+8-8;Pairé;20;BB;;vs open CO
+8-7;suited;20;BB;;vs open CO
+8-6;suited;20;BB;;vs open CO
+8-5;suited;20;BB;;vs open CO
+8-4;suited;20;BB;;vs open CO
+8-3;suited;20;BB;;vs open CO
+8-2;suited;20;BB;;vs open CO
+8-7;non suited;20;BB;;vs open CO
+8-6;non suited;20;BB;;vs open CO
+8-5;non suited;20;BB;;vs open CO
+8-4;non suited;20;BB;;vs open CO
+8-3;non suited;20;BB;;vs open CO
+8-2;non suited;20;BB;;vs open CO
+7-7;Pairé;20;BB;;vs open CO
+7-6;suited;20;BB;;vs open CO
+7-5;suited;20;BB;;vs open CO
+7-4;suited;20;BB;;vs open CO
+7-3;suited;20;BB;;vs open CO
+7-2;suited;20;BB;;vs open CO
+7-6;non suited;20;BB;;vs open CO
+7-5;non suited;20;BB;;vs open CO
+7-4;non suited;20;BB;;vs open CO
+7-3;non suited;20;BB;;vs open CO
+7-2;non suited;20;BB;;vs open CO
+6-6;Pairé;20;BB;;vs open CO
+6-5;suited;20;BB;;vs open CO
+6-4;suited;20;BB;;vs open CO
+6-3;suited;20;BB;;vs open CO
+6-2;suited;20;BB;;vs open CO
+6-5;non suited;20;BB;;vs open CO
+6-4;non suited;20;BB;;vs open CO
+6-3;non suited;20;BB;;vs open CO
+6-2;non suited;20;BB;;vs open CO
+5-5;Pairé;20;BB;;vs open CO
+5-4;suited;20;BB;;vs open CO
+5-3;suited;20;BB;;vs open CO
+5-2;suited;20;BB;;vs open CO
+5-4;non suited;20;BB;;vs open CO
+5-3;non suited;20;BB;;vs open CO
+5-2;non suited;20;BB;;vs open CO
+4-4;Pairé;20;BB;;vs open CO
+4-3;suited;20;BB;;vs open CO
+4-2;suited;20;BB;;vs open CO
+4-3;non suited;20;BB;;vs open CO
+4-2;non suited;20;BB;;vs open CO
+3-3;Pairé;20;BB;;vs open CO
+3-2;suited;20;BB;;vs open CO
+3-2;non suited;20;BB;;vs open CO
+2-2;Pairé;20;BB;;vs open CO
+A-A;Pairé;20;BB;;vs open early
+A-K;suited;20;BB;;vs open early
+A-Q;suited;20;BB;;vs open early
+A-J;suited;20;BB;;vs open early
+A-10;suited;20;BB;;vs open early
+A-9;suited;20;BB;;vs open early
+A-8;suited;20;BB;;vs open early
+A-7;suited;20;BB;;vs open early
+A-6;suited;20;BB;;vs open early
+A-5;suited;20;BB;;vs open early
+A-4;suited;20;BB;;vs open early
+A-3;suited;20;BB;;vs open early
+A-2;suited;20;BB;;vs open early
+A-K;non suited;20;BB;;vs open early
+A-Q;non suited;20;BB;;vs open early
+A-J;non suited;20;BB;;vs open early
+A-10;non suited;20;BB;;vs open early
+A-9;non suited;20;BB;;vs open early
+A-8;non suited;20;BB;;vs open early
+A-7;non suited;20;BB;;vs open early
+A-6;non suited;20;BB;;vs open early
+A-5;non suited;20;BB;;vs open early
+A-4;non suited;20;BB;;vs open early
+A-3;non suited;20;BB;;vs open early
+A-2;non suited;20;BB;;vs open early
+K-K;Pairé;20;BB;;vs open early
+K-Q;suited;20;BB;;vs open early
+K-J;suited;20;BB;;vs open early
+K-10;suited;20;BB;;vs open early
+K-9;suited;20;BB;;vs open early
+K-8;suited;20;BB;;vs open early
+K-7;suited;20;BB;;vs open early
+K-6;suited;20;BB;;vs open early
+K-5;suited;20;BB;;vs open early
+K-4;suited;20;BB;;vs open early
+K-3;suited;20;BB;;vs open early
+K-2;suited;20;BB;;vs open early
+K-Q;non suited;20;BB;;vs open early
+K-J;non suited;20;BB;;vs open early
+K-10;non suited;20;BB;;vs open early
+K-9;non suited;20;BB;;vs open early
+K-8;non suited;20;BB;;vs open early
+K-7;non suited;20;BB;;vs open early
+K-6;non suited;20;BB;;vs open early
+K-5;non suited;20;BB;;vs open early
+K-4;non suited;20;BB;;vs open early
+K-3;non suited;20;BB;;vs open early
+K-2;non suited;20;BB;;vs open early
+Q-Q;Pairé;20;BB;;vs open early
+Q-J;suited;20;BB;;vs open early
+Q-10;suited;20;BB;;vs open early
+Q-9;suited;20;BB;;vs open early
+Q-8;suited;20;BB;;vs open early
+Q-7;suited;20;BB;;vs open early
+Q-6;suited;20;BB;;vs open early
+Q-5;suited;20;BB;;vs open early
+Q-4;suited;20;BB;;vs open early
+Q-3;suited;20;BB;;vs open early
+Q-2;suited;20;BB;;vs open early
+Q-J;non suited;20;BB;;vs open early
+Q-10;non suited;20;BB;;vs open early
+Q-9;non suited;20;BB;;vs open early
+Q-8;non suited;20;BB;;vs open early
+Q-7;non suited;20;BB;;vs open early
+Q-6;non suited;20;BB;;vs open early
+Q-5;non suited;20;BB;;vs open early
+Q-4;non suited;20;BB;;vs open early
+Q-3;non suited;20;BB;;vs open early
+Q-2;non suited;20;BB;;vs open early
+J-J;Pairé;20;BB;;vs open early
+J-10;suited;20;BB;;vs open early
+J-9;suited;20;BB;;vs open early
+J-8;suited;20;BB;;vs open early
+J-7;suited;20;BB;;vs open early
+J-6;suited;20;BB;;vs open early
+J-5;suited;20;BB;;vs open early
+J-4;suited;20;BB;;vs open early
+J-3;suited;20;BB;;vs open early
+J-2;suited;20;BB;;vs open early
+J-10;non suited;20;BB;;vs open early
+J-9;non suited;20;BB;;vs open early
+J-8;non suited;20;BB;;vs open early
+J-7;non suited;20;BB;;vs open early
+J-6;non suited;20;BB;;vs open early
+J-5;non suited;20;BB;;vs open early
+J-4;non suited;20;BB;;vs open early
+J-3;non suited;20;BB;;vs open early
+J-2;non suited;20;BB;;vs open early
+10-10;Pairé;20;BB;;vs open early
+10-9;suited;20;BB;;vs open early
+10-8;suited;20;BB;;vs open early
+10-7;suited;20;BB;;vs open early
+10-6;suited;20;BB;;vs open early
+10-5;suited;20;BB;;vs open early
+10-4;suited;20;BB;;vs open early
+10-3;suited;20;BB;;vs open early
+10-2;suited;20;BB;;vs open early
+10-9;non suited;20;BB;;vs open early
+10-8;non suited;20;BB;;vs open early
+10-7;non suited;20;BB;;vs open early
+10-6;non suited;20;BB;;vs open early
+10-5;non suited;20;BB;;vs open early
+10-4;non suited;20;BB;;vs open early
+10-3;non suited;20;BB;;vs open early
+10-2;non suited;20;BB;;vs open early
+9-9;Pairé;20;BB;;vs open early
+9-8;suited;20;BB;;vs open early
+9-7;suited;20;BB;;vs open early
+9-6;suited;20;BB;;vs open early
+9-5;suited;20;BB;;vs open early
+9-4;suited;20;BB;;vs open early
+9-3;suited;20;BB;;vs open early
+9-2;suited;20;BB;;vs open early
+9-8;non suited;20;BB;;vs open early
+9-7;non suited;20;BB;;vs open early
+9-6;non suited;20;BB;;vs open early
+9-5;non suited;20;BB;;vs open early
+9-4;non suited;20;BB;;vs open early
+9-3;non suited;20;BB;;vs open early
+9-2;non suited;20;BB;;vs open early
+8-8;Pairé;20;BB;;vs open early
+8-7;suited;20;BB;;vs open early
+8-6;suited;20;BB;;vs open early
+8-5;suited;20;BB;;vs open early
+8-4;suited;20;BB;;vs open early
+8-3;suited;20;BB;;vs open early
+8-2;suited;20;BB;;vs open early
+8-7;non suited;20;BB;;vs open early
+8-6;non suited;20;BB;;vs open early
+8-5;non suited;20;BB;;vs open early
+8-4;non suited;20;BB;;vs open early
+8-3;non suited;20;BB;;vs open early
+8-2;non suited;20;BB;;vs open early
+7-7;Pairé;20;BB;;vs open early
+7-6;suited;20;BB;;vs open early
+7-5;suited;20;BB;;vs open early
+7-4;suited;20;BB;;vs open early
+7-3;suited;20;BB;;vs open early
+7-2;suited;20;BB;;vs open early
+7-6;non suited;20;BB;;vs open early
+7-5;non suited;20;BB;;vs open early
+7-4;non suited;20;BB;;vs open early
+7-3;non suited;20;BB;;vs open early
+7-2;non suited;20;BB;;vs open early
+6-6;Pairé;20;BB;;vs open early
+6-5;suited;20;BB;;vs open early
+6-4;suited;20;BB;;vs open early
+6-3;suited;20;BB;;vs open early
+6-2;suited;20;BB;;vs open early
+6-5;non suited;20;BB;;vs open early
+6-4;non suited;20;BB;;vs open early
+6-3;non suited;20;BB;;vs open early
+6-2;non suited;20;BB;;vs open early
+5-5;Pairé;20;BB;;vs open early
+5-4;suited;20;BB;;vs open early
+5-3;suited;20;BB;;vs open early
+5-2;suited;20;BB;;vs open early
+5-4;non suited;20;BB;;vs open early
+5-3;non suited;20;BB;;vs open early
+5-2;non suited;20;BB;;vs open early
+4-4;Pairé;20;BB;;vs open early
+4-3;suited;20;BB;;vs open early
+4-2;suited;20;BB;;vs open early
+4-3;non suited;20;BB;;vs open early
+4-2;non suited;20;BB;;vs open early
+3-3;Pairé;20;BB;;vs open early
+3-2;suited;20;BB;;vs open early
+3-2;non suited;20;BB;;vs open early
+2-2;Pairé;20;BB;;vs open early
+A-A;Pairé;50;BB;;vs open BTN
+A-K;suited;50;BB;;vs open BTN
+A-Q;suited;50;BB;;vs open BTN
+A-J;suited;50;BB;;vs open BTN
+A-10;suited;50;BB;;vs open BTN
+A-9;suited;50;BB;;vs open BTN
+A-8;suited;50;BB;;vs open BTN
+A-7;suited;50;BB;;vs open BTN
+A-6;suited;50;BB;;vs open BTN
+A-5;suited;50;BB;;vs open BTN
+A-4;suited;50;BB;;vs open BTN
+A-3;suited;50;BB;;vs open BTN
+A-2;suited;50;BB;;vs open BTN
+A-K;non suited;50;BB;;vs open BTN
+A-Q;non suited;50;BB;;vs open BTN
+A-J;non suited;50;BB;;vs open BTN
+A-10;non suited;50;BB;;vs open BTN
+A-9;non suited;50;BB;;vs open BTN
+A-8;non suited;50;BB;;vs open BTN
+A-7;non suited;50;BB;;vs open BTN
+A-6;non suited;50;BB;;vs open BTN
+A-5;non suited;50;BB;;vs open BTN
+A-4;non suited;50;BB;;vs open BTN
+A-3;non suited;50;BB;;vs open BTN
+A-2;non suited;50;BB;;vs open BTN
+K-K;Pairé;50;BB;;vs open BTN
+K-Q;suited;50;BB;;vs open BTN
+K-J;suited;50;BB;;vs open BTN
+K-10;suited;50;BB;;vs open BTN
+K-9;suited;50;BB;;vs open BTN
+K-8;suited;50;BB;;vs open BTN
+K-7;suited;50;BB;;vs open BTN
+K-6;suited;50;BB;;vs open BTN
+K-5;suited;50;BB;;vs open BTN
+K-4;suited;50;BB;;vs open BTN
+K-3;suited;50;BB;;vs open BTN
+K-2;suited;50;BB;;vs open BTN
+K-Q;non suited;50;BB;;vs open BTN
+K-J;non suited;50;BB;;vs open BTN
+K-10;non suited;50;BB;;vs open BTN
+K-9;non suited;50;BB;;vs open BTN
+K-8;non suited;50;BB;;vs open BTN
+K-7;non suited;50;BB;;vs open BTN
+K-6;non suited;50;BB;;vs open BTN
+K-5;non suited;50;BB;;vs open BTN
+K-4;non suited;50;BB;;vs open BTN
+K-3;non suited;50;BB;;vs open BTN
+K-2;non suited;50;BB;;vs open BTN
+Q-Q;Pairé;50;BB;;vs open BTN
+Q-J;suited;50;BB;;vs open BTN
+Q-10;suited;50;BB;;vs open BTN
+Q-9;suited;50;BB;;vs open BTN
+Q-8;suited;50;BB;;vs open BTN
+Q-7;suited;50;BB;;vs open BTN
+Q-6;suited;50;BB;;vs open BTN
+Q-5;suited;50;BB;;vs open BTN
+Q-4;suited;50;BB;;vs open BTN
+Q-3;suited;50;BB;;vs open BTN
+Q-2;suited;50;BB;;vs open BTN
+Q-J;non suited;50;BB;;vs open BTN
+Q-10;non suited;50;BB;;vs open BTN
+Q-9;non suited;50;BB;;vs open BTN
+Q-8;non suited;50;BB;;vs open BTN
+Q-7;non suited;50;BB;;vs open BTN
+Q-6;non suited;50;BB;;vs open BTN
+Q-5;non suited;50;BB;;vs open BTN
+Q-4;non suited;50;BB;;vs open BTN
+Q-3;non suited;50;BB;;vs open BTN
+Q-2;non suited;50;BB;;vs open BTN
+J-J;Pairé;50;BB;;vs open BTN
+J-10;suited;50;BB;;vs open BTN
+J-9;suited;50;BB;;vs open BTN
+J-8;suited;50;BB;;vs open BTN
+J-7;suited;50;BB;;vs open BTN
+J-6;suited;50;BB;;vs open BTN
+J-5;suited;50;BB;;vs open BTN
+J-4;suited;50;BB;;vs open BTN
+J-3;suited;50;BB;;vs open BTN
+J-2;suited;50;BB;;vs open BTN
+J-10;non suited;50;BB;;vs open BTN
+J-9;non suited;50;BB;;vs open BTN
+J-8;non suited;50;BB;;vs open BTN
+J-7;non suited;50;BB;;vs open BTN
+J-6;non suited;50;BB;;vs open BTN
+J-5;non suited;50;BB;;vs open BTN
+J-4;non suited;50;BB;;vs open BTN
+J-3;non suited;50;BB;;vs open BTN
+J-2;non suited;50;BB;;vs open BTN
+10-10;Pairé;50;BB;;vs open BTN
+10-9;suited;50;BB;;vs open BTN
+10-8;suited;50;BB;;vs open BTN
+10-7;suited;50;BB;;vs open BTN
+10-6;suited;50;BB;;vs open BTN
+10-5;suited;50;BB;;vs open BTN
+10-4;suited;50;BB;;vs open BTN
+10-3;suited;50;BB;;vs open BTN
+10-2;suited;50;BB;;vs open BTN
+10-9;non suited;50;BB;;vs open BTN
+10-8;non suited;50;BB;;vs open BTN
+10-7;non suited;50;BB;;vs open BTN
+10-6;non suited;50;BB;;vs open BTN
+10-5;non suited;50;BB;;vs open BTN
+10-4;non suited;50;BB;;vs open BTN
+10-3;non suited;50;BB;;vs open BTN
+10-2;non suited;50;BB;;vs open BTN
+9-9;Pairé;50;BB;;vs open BTN
+9-8;suited;50;BB;;vs open BTN
+9-7;suited;50;BB;;vs open BTN
+9-6;suited;50;BB;;vs open BTN
+9-5;suited;50;BB;;vs open BTN
+9-4;suited;50;BB;;vs open BTN
+9-3;suited;50;BB;;vs open BTN
+9-2;suited;50;BB;;vs open BTN
+9-8;non suited;50;BB;;vs open BTN
+9-7;non suited;50;BB;;vs open BTN
+9-6;non suited;50;BB;;vs open BTN
+9-5;non suited;50;BB;;vs open BTN
+9-4;non suited;50;BB;;vs open BTN
+9-3;non suited;50;BB;;vs open BTN
+9-2;non suited;50;BB;;vs open BTN
+8-8;Pairé;50;BB;;vs open BTN
+8-7;suited;50;BB;;vs open BTN
+8-6;suited;50;BB;;vs open BTN
+8-5;suited;50;BB;;vs open BTN
+8-4;suited;50;BB;;vs open BTN
+8-3;suited;50;BB;;vs open BTN
+8-2;suited;50;BB;;vs open BTN
+8-7;non suited;50;BB;;vs open BTN
+8-6;non suited;50;BB;;vs open BTN
+8-5;non suited;50;BB;;vs open BTN
+8-4;non suited;50;BB;;vs open BTN
+8-3;non suited;50;BB;;vs open BTN
+8-2;non suited;50;BB;;vs open BTN
+7-7;Pairé;50;BB;;vs open BTN
+7-6;suited;50;BB;;vs open BTN
+7-5;suited;50;BB;;vs open BTN
+7-4;suited;50;BB;;vs open BTN
+7-3;suited;50;BB;;vs open BTN
+7-2;suited;50;BB;;vs open BTN
+7-6;non suited;50;BB;;vs open BTN
+7-5;non suited;50;BB;;vs open BTN
+7-4;non suited;50;BB;;vs open BTN
+7-3;non suited;50;BB;;vs open BTN
+7-2;non suited;50;BB;;vs open BTN
+6-6;Pairé;50;BB;;vs open BTN
+6-5;suited;50;BB;;vs open BTN
+6-4;suited;50;BB;;vs open BTN
+6-3;suited;50;BB;;vs open BTN
+6-2;suited;50;BB;;vs open BTN
+6-5;non suited;50;BB;;vs open BTN
+6-4;non suited;50;BB;;vs open BTN
+6-3;non suited;50;BB;;vs open BTN
+6-2;non suited;50;BB;;vs open BTN
+5-5;Pairé;50;BB;;vs open BTN
+5-4;suited;50;BB;;vs open BTN
+5-3;suited;50;BB;;vs open BTN
+5-2;suited;50;BB;;vs open BTN
+5-4;non suited;50;BB;;vs open BTN
+5-3;non suited;50;BB;;vs open BTN
+5-2;non suited;50;BB;;vs open BTN
+4-4;Pairé;50;BB;;vs open BTN
+4-3;suited;50;BB;;vs open BTN
+4-2;suited;50;BB;;vs open BTN
+4-3;non suited;50;BB;;vs open BTN
+4-2;non suited;50;BB;;vs open BTN
+3-3;Pairé;50;BB;;vs open BTN
+3-2;suited;50;BB;;vs open BTN
+3-2;non suited;50;BB;;vs open BTN
+2-2;Pairé;50;BB;;vs open BTN
+A-A;Pairé;50;BB;;vs open CO
+A-K;suited;50;BB;;vs open CO
+A-Q;suited;50;BB;;vs open CO
+A-J;suited;50;BB;;vs open CO
+A-10;suited;50;BB;;vs open CO
+A-9;suited;50;BB;;vs open CO
+A-8;suited;50;BB;;vs open CO
+A-7;suited;50;BB;;vs open CO
+A-6;suited;50;BB;;vs open CO
+A-5;suited;50;BB;;vs open CO
+A-4;suited;50;BB;;vs open CO
+A-3;suited;50;BB;;vs open CO
+A-2;suited;50;BB;;vs open CO
+A-K;non suited;50;BB;;vs open CO
+A-Q;non suited;50;BB;;vs open CO
+A-J;non suited;50;BB;;vs open CO
+A-10;non suited;50;BB;;vs open CO
+A-9;non suited;50;BB;;vs open CO
+A-8;non suited;50;BB;;vs open CO
+A-7;non suited;50;BB;;vs open CO
+A-6;non suited;50;BB;;vs open CO
+A-5;non suited;50;BB;;vs open CO
+A-4;non suited;50;BB;;vs open CO
+A-3;non suited;50;BB;;vs open CO
+A-2;non suited;50;BB;;vs open CO
+K-K;Pairé;50;BB;;vs open CO
+K-Q;suited;50;BB;;vs open CO
+K-J;suited;50;BB;;vs open CO
+K-10;suited;50;BB;;vs open CO
+K-9;suited;50;BB;;vs open CO
+K-8;suited;50;BB;;vs open CO
+K-7;suited;50;BB;;vs open CO
+K-6;suited;50;BB;;vs open CO
+K-5;suited;50;BB;;vs open CO
+K-4;suited;50;BB;;vs open CO
+K-3;suited;50;BB;;vs open CO
+K-2;suited;50;BB;;vs open CO
+K-Q;non suited;50;BB;;vs open CO
+K-J;non suited;50;BB;;vs open CO
+K-10;non suited;50;BB;;vs open CO
+K-9;non suited;50;BB;;vs open CO
+K-8;non suited;50;BB;;vs open CO
+K-7;non suited;50;BB;;vs open CO
+K-6;non suited;50;BB;;vs open CO
+K-5;non suited;50;BB;;vs open CO
+K-4;non suited;50;BB;;vs open CO
+K-3;non suited;50;BB;;vs open CO
+K-2;non suited;50;BB;;vs open CO
+Q-Q;Pairé;50;BB;;vs open CO
+Q-J;suited;50;BB;;vs open CO
+Q-10;suited;50;BB;;vs open CO
+Q-9;suited;50;BB;;vs open CO
+Q-8;suited;50;BB;;vs open CO
+Q-7;suited;50;BB;;vs open CO
+Q-6;suited;50;BB;;vs open CO
+Q-5;suited;50;BB;;vs open CO
+Q-4;suited;50;BB;;vs open CO
+Q-3;suited;50;BB;;vs open CO
+Q-2;suited;50;BB;;vs open CO
+Q-J;non suited;50;BB;;vs open CO
+Q-10;non suited;50;BB;;vs open CO
+Q-9;non suited;50;BB;;vs open CO
+Q-8;non suited;50;BB;;vs open CO
+Q-7;non suited;50;BB;;vs open CO
+Q-6;non suited;50;BB;;vs open CO
+Q-5;non suited;50;BB;;vs open CO
+Q-4;non suited;50;BB;;vs open CO
+Q-3;non suited;50;BB;;vs open CO
+Q-2;non suited;50;BB;;vs open CO
+J-J;Pairé;50;BB;;vs open CO
+J-10;suited;50;BB;;vs open CO
+J-9;suited;50;BB;;vs open CO
+J-8;suited;50;BB;;vs open CO
+J-7;suited;50;BB;;vs open CO
+J-6;suited;50;BB;;vs open CO
+J-5;suited;50;BB;;vs open CO
+J-4;suited;50;BB;;vs open CO
+J-3;suited;50;BB;;vs open CO
+J-2;suited;50;BB;;vs open CO
+J-10;non suited;50;BB;;vs open CO
+J-9;non suited;50;BB;;vs open CO
+J-8;non suited;50;BB;;vs open CO
+J-7;non suited;50;BB;;vs open CO
+J-6;non suited;50;BB;;vs open CO
+J-5;non suited;50;BB;;vs open CO
+J-4;non suited;50;BB;;vs open CO
+J-3;non suited;50;BB;;vs open CO
+J-2;non suited;50;BB;;vs open CO
+10-10;Pairé;50;BB;;vs open CO
+10-9;suited;50;BB;;vs open CO
+10-8;suited;50;BB;;vs open CO
+10-7;suited;50;BB;;vs open CO
+10-6;suited;50;BB;;vs open CO
+10-5;suited;50;BB;;vs open CO
+10-4;suited;50;BB;;vs open CO
+10-3;suited;50;BB;;vs open CO
+10-2;suited;50;BB;;vs open CO
+10-9;non suited;50;BB;;vs open CO
+10-8;non suited;50;BB;;vs open CO
+10-7;non suited;50;BB;;vs open CO
+10-6;non suited;50;BB;;vs open CO
+10-5;non suited;50;BB;;vs open CO
+10-4;non suited;50;BB;;vs open CO
+10-3;non suited;50;BB;;vs open CO
+10-2;non suited;50;BB;;vs open CO
+9-9;Pairé;50;BB;;vs open CO
+9-8;suited;50;BB;;vs open CO
+9-7;suited;50;BB;;vs open CO
+9-6;suited;50;BB;;vs open CO
+9-5;suited;50;BB;;vs open CO
+9-4;suited;50;BB;;vs open CO
+9-3;suited;50;BB;;vs open CO
+9-2;suited;50;BB;;vs open CO
+9-8;non suited;50;BB;;vs open CO
+9-7;non suited;50;BB;;vs open CO
+9-6;non suited;50;BB;;vs open CO
+9-5;non suited;50;BB;;vs open CO
+9-4;non suited;50;BB;;vs open CO
+9-3;non suited;50;BB;;vs open CO
+9-2;non suited;50;BB;;vs open CO
+8-8;Pairé;50;BB;;vs open CO
+8-7;suited;50;BB;;vs open CO
+8-6;suited;50;BB;;vs open CO
+8-5;suited;50;BB;;vs open CO
+8-4;suited;50;BB;;vs open CO
+8-3;suited;50;BB;;vs open CO
+8-2;suited;50;BB;;vs open CO
+8-7;non suited;50;BB;;vs open CO
+8-6;non suited;50;BB;;vs open CO
+8-5;non suited;50;BB;;vs open CO
+8-4;non suited;50;BB;;vs open CO
+8-3;non suited;50;BB;;vs open CO
+8-2;non suited;50;BB;;vs open CO
+7-7;Pairé;50;BB;;vs open CO
+7-6;suited;50;BB;;vs open CO
+7-5;suited;50;BB;;vs open CO
+7-4;suited;50;BB;;vs open CO
+7-3;suited;50;BB;;vs open CO
+7-2;suited;50;BB;;vs open CO
+7-6;non suited;50;BB;;vs open CO
+7-5;non suited;50;BB;;vs open CO
+7-4;non suited;50;BB;;vs open CO
+7-3;non suited;50;BB;;vs open CO
+7-2;non suited;50;BB;;vs open CO
+6-6;Pairé;50;BB;;vs open CO
+6-5;suited;50;BB;;vs open CO
+6-4;suited;50;BB;;vs open CO
+6-3;suited;50;BB;;vs open CO
+6-2;suited;50;BB;;vs open CO
+6-5;non suited;50;BB;;vs open CO
+6-4;non suited;50;BB;;vs open CO
+6-3;non suited;50;BB;;vs open CO
+6-2;non suited;50;BB;;vs open CO
+5-5;Pairé;50;BB;;vs open CO
+5-4;suited;50;BB;;vs open CO
+5-3;suited;50;BB;;vs open CO
+5-2;suited;50;BB;;vs open CO
+5-4;non suited;50;BB;;vs open CO
+5-3;non suited;50;BB;;vs open CO
+5-2;non suited;50;BB;;vs open CO
+4-4;Pairé;50;BB;;vs open CO
+4-3;suited;50;BB;;vs open CO
+4-2;suited;50;BB;;vs open CO
+4-3;non suited;50;BB;;vs open CO
+4-2;non suited;50;BB;;vs open CO
+3-3;Pairé;50;BB;;vs open CO
+3-2;suited;50;BB;;vs open CO
+3-2;non suited;50;BB;;vs open CO
+2-2;Pairé;50;BB;;vs open CO
+A-A;Pairé;50;BB;;vs open early
+A-K;suited;50;BB;;vs open early
+A-Q;suited;50;BB;;vs open early
+A-J;suited;50;BB;;vs open early
+A-10;suited;50;BB;;vs open early
+A-9;suited;50;BB;;vs open early
+A-8;suited;50;BB;;vs open early
+A-7;suited;50;BB;;vs open early
+A-6;suited;50;BB;;vs open early
+A-5;suited;50;BB;;vs open early
+A-4;suited;50;BB;;vs open early
+A-3;suited;50;BB;;vs open early
+A-2;suited;50;BB;;vs open early
+A-K;non suited;50;BB;;vs open early
+A-Q;non suited;50;BB;;vs open early
+A-J;non suited;50;BB;;vs open early
+A-10;non suited;50;BB;;vs open early
+A-9;non suited;50;BB;;vs open early
+A-8;non suited;50;BB;;vs open early
+A-7;non suited;50;BB;;vs open early
+A-6;non suited;50;BB;;vs open early
+A-5;non suited;50;BB;;vs open early
+A-4;non suited;50;BB;;vs open early
+A-3;non suited;50;BB;;vs open early
+A-2;non suited;50;BB;;vs open early
+K-K;Pairé;50;BB;;vs open early
+K-Q;suited;50;BB;;vs open early
+K-J;suited;50;BB;;vs open early
+K-10;suited;50;BB;;vs open early
+K-9;suited;50;BB;;vs open early
+K-8;suited;50;BB;;vs open early
+K-7;suited;50;BB;;vs open early
+K-6;suited;50;BB;;vs open early
+K-5;suited;50;BB;;vs open early
+K-4;suited;50;BB;;vs open early
+K-3;suited;50;BB;;vs open early
+K-2;suited;50;BB;;vs open early
+K-Q;non suited;50;BB;;vs open early
+K-J;non suited;50;BB;;vs open early
+K-10;non suited;50;BB;;vs open early
+K-9;non suited;50;BB;;vs open early
+K-8;non suited;50;BB;;vs open early
+K-7;non suited;50;BB;;vs open early
+K-6;non suited;50;BB;;vs open early
+K-5;non suited;50;BB;;vs open early
+K-4;non suited;50;BB;;vs open early
+K-3;non suited;50;BB;;vs open early
+K-2;non suited;50;BB;;vs open early
+Q-Q;Pairé;50;BB;;vs open early
+Q-J;suited;50;BB;;vs open early
+Q-10;suited;50;BB;;vs open early
+Q-9;suited;50;BB;;vs open early
+Q-8;suited;50;BB;;vs open early
+Q-7;suited;50;BB;;vs open early
+Q-6;suited;50;BB;;vs open early
+Q-5;suited;50;BB;;vs open early
+Q-4;suited;50;BB;;vs open early
+Q-3;suited;50;BB;;vs open early
+Q-2;suited;50;BB;;vs open early
+Q-J;non suited;50;BB;;vs open early
+Q-10;non suited;50;BB;;vs open early
+Q-9;non suited;50;BB;;vs open early
+Q-8;non suited;50;BB;;vs open early
+Q-7;non suited;50;BB;;vs open early
+Q-6;non suited;50;BB;;vs open early
+Q-5;non suited;50;BB;;vs open early
+Q-4;non suited;50;BB;;vs open early
+Q-3;non suited;50;BB;;vs open early
+Q-2;non suited;50;BB;;vs open early
+J-J;Pairé;50;BB;;vs open early
+J-10;suited;50;BB;;vs open early
+J-9;suited;50;BB;;vs open early
+J-8;suited;50;BB;;vs open early
+J-7;suited;50;BB;;vs open early
+J-6;suited;50;BB;;vs open early
+J-5;suited;50;BB;;vs open early
+J-4;suited;50;BB;;vs open early
+J-3;suited;50;BB;;vs open early
+J-2;suited;50;BB;;vs open early
+J-10;non suited;50;BB;;vs open early
+J-9;non suited;50;BB;;vs open early
+J-8;non suited;50;BB;;vs open early
+J-7;non suited;50;BB;;vs open early
+J-6;non suited;50;BB;;vs open early
+J-5;non suited;50;BB;;vs open early
+J-4;non suited;50;BB;;vs open early
+J-3;non suited;50;BB;;vs open early
+J-2;non suited;50;BB;;vs open early
+10-10;Pairé;50;BB;;vs open early
+10-9;suited;50;BB;;vs open early
+10-8;suited;50;BB;;vs open early
+10-7;suited;50;BB;;vs open early
+10-6;suited;50;BB;;vs open early
+10-5;suited;50;BB;;vs open early
+10-4;suited;50;BB;;vs open early
+10-3;suited;50;BB;;vs open early
+10-2;suited;50;BB;;vs open early
+10-9;non suited;50;BB;;vs open early
+10-8;non suited;50;BB;;vs open early
+10-7;non suited;50;BB;;vs open early
+10-6;non suited;50;BB;;vs open early
+10-5;non suited;50;BB;;vs open early
+10-4;non suited;50;BB;;vs open early
+10-3;non suited;50;BB;;vs open early
+10-2;non suited;50;BB;;vs open early
+9-9;Pairé;50;BB;;vs open early
+9-8;suited;50;BB;;vs open early
+9-7;suited;50;BB;;vs open early
+9-6;suited;50;BB;;vs open early
+9-5;suited;50;BB;;vs open early
+9-4;suited;50;BB;;vs open early
+9-3;suited;50;BB;;vs open early
+9-2;suited;50;BB;;vs open early
+9-8;non suited;50;BB;;vs open early
+9-7;non suited;50;BB;;vs open early
+9-6;non suited;50;BB;;vs open early
+9-5;non suited;50;BB;;vs open early
+9-4;non suited;50;BB;;vs open early
+9-3;non suited;50;BB;;vs open early
+9-2;non suited;50;BB;;vs open early
+8-8;Pairé;50;BB;;vs open early
+8-7;suited;50;BB;;vs open early
+8-6;suited;50;BB;;vs open early
+8-5;suited;50;BB;;vs open early
+8-4;suited;50;BB;;vs open early
+8-3;suited;50;BB;;vs open early
+8-2;suited;50;BB;;vs open early
+8-7;non suited;50;BB;;vs open early
+8-6;non suited;50;BB;;vs open early
+8-5;non suited;50;BB;;vs open early
+8-4;non suited;50;BB;;vs open early
+8-3;non suited;50;BB;;vs open early
+8-2;non suited;50;BB;;vs open early
+7-7;Pairé;50;BB;;vs open early
+7-6;suited;50;BB;;vs open early
+7-5;suited;50;BB;;vs open early
+7-4;suited;50;BB;;vs open early
+7-3;suited;50;BB;;vs open early
+7-2;suited;50;BB;;vs open early
+7-6;non suited;50;BB;;vs open early
+7-5;non suited;50;BB;;vs open early
+7-4;non suited;50;BB;;vs open early
+7-3;non suited;50;BB;;vs open early
+7-2;non suited;50;BB;;vs open early
+6-6;Pairé;50;BB;;vs open early
+6-5;suited;50;BB;;vs open early
+6-4;suited;50;BB;;vs open early
+6-3;suited;50;BB;;vs open early
+6-2;suited;50;BB;;vs open early
+6-5;non suited;50;BB;;vs open early
+6-4;non suited;50;BB;;vs open early
+6-3;non suited;50;BB;;vs open early
+6-2;non suited;50;BB;;vs open early
+5-5;Pairé;50;BB;;vs open early
+5-4;suited;50;BB;;vs open early
+5-3;suited;50;BB;;vs open early
+5-2;suited;50;BB;;vs open early
+5-4;non suited;50;BB;;vs open early
+5-3;non suited;50;BB;;vs open early
+5-2;non suited;50;BB;;vs open early
+4-4;Pairé;50;BB;;vs open early
+4-3;suited;50;BB;;vs open early
+4-2;suited;50;BB;;vs open early
+4-3;non suited;50;BB;;vs open early
+4-2;non suited;50;BB;;vs open early
+3-3;Pairé;50;BB;;vs open early
+3-2;suited;50;BB;;vs open early
+3-2;non suited;50;BB;;vs open early
+2-2;Pairé;50;BB;;vs open early
+A-A;Pairé;100;BB;;vs open BTN
+A-K;suited;100;BB;;vs open BTN
+A-Q;suited;100;BB;;vs open BTN
+A-J;suited;100;BB;;vs open BTN
+A-10;suited;100;BB;;vs open BTN
+A-9;suited;100;BB;;vs open BTN
+A-8;suited;100;BB;;vs open BTN
+A-7;suited;100;BB;;vs open BTN
+A-6;suited;100;BB;;vs open BTN
+A-5;suited;100;BB;;vs open BTN
+A-4;suited;100;BB;;vs open BTN
+A-3;suited;100;BB;;vs open BTN
+A-2;suited;100;BB;;vs open BTN
+A-K;non suited;100;BB;;vs open BTN
+A-Q;non suited;100;BB;;vs open BTN
+A-J;non suited;100;BB;;vs open BTN
+A-10;non suited;100;BB;;vs open BTN
+A-9;non suited;100;BB;;vs open BTN
+A-8;non suited;100;BB;;vs open BTN
+A-7;non suited;100;BB;;vs open BTN
+A-6;non suited;100;BB;;vs open BTN
+A-5;non suited;100;BB;;vs open BTN
+A-4;non suited;100;BB;;vs open BTN
+A-3;non suited;100;BB;;vs open BTN
+A-2;non suited;100;BB;;vs open BTN
+K-K;Pairé;100;BB;;vs open BTN
+K-Q;suited;100;BB;;vs open BTN
+K-J;suited;100;BB;;vs open BTN
+K-10;suited;100;BB;;vs open BTN
+K-9;suited;100;BB;;vs open BTN
+K-8;suited;100;BB;;vs open BTN
+K-7;suited;100;BB;;vs open BTN
+K-6;suited;100;BB;;vs open BTN
+K-5;suited;100;BB;;vs open BTN
+K-4;suited;100;BB;;vs open BTN
+K-3;suited;100;BB;;vs open BTN
+K-2;suited;100;BB;;vs open BTN
+K-Q;non suited;100;BB;;vs open BTN
+K-J;non suited;100;BB;;vs open BTN
+K-10;non suited;100;BB;;vs open BTN
+K-9;non suited;100;BB;;vs open BTN
+K-8;non suited;100;BB;;vs open BTN
+K-7;non suited;100;BB;;vs open BTN
+K-6;non suited;100;BB;;vs open BTN
+K-5;non suited;100;BB;;vs open BTN
+K-4;non suited;100;BB;;vs open BTN
+K-3;non suited;100;BB;;vs open BTN
+K-2;non suited;100;BB;;vs open BTN
+Q-Q;Pairé;100;BB;;vs open BTN
+Q-J;suited;100;BB;;vs open BTN
+Q-10;suited;100;BB;;vs open BTN
+Q-9;suited;100;BB;;vs open BTN
+Q-8;suited;100;BB;;vs open BTN
+Q-7;suited;100;BB;;vs open BTN
+Q-6;suited;100;BB;;vs open BTN
+Q-5;suited;100;BB;;vs open BTN
+Q-4;suited;100;BB;;vs open BTN
+Q-3;suited;100;BB;;vs open BTN
+Q-2;suited;100;BB;;vs open BTN
+Q-J;non suited;100;BB;;vs open BTN
+Q-10;non suited;100;BB;;vs open BTN
+Q-9;non suited;100;BB;;vs open BTN
+Q-8;non suited;100;BB;;vs open BTN
+Q-7;non suited;100;BB;;vs open BTN
+Q-6;non suited;100;BB;;vs open BTN
+Q-5;non suited;100;BB;;vs open BTN
+Q-4;non suited;100;BB;;vs open BTN
+Q-3;non suited;100;BB;;vs open BTN
+Q-2;non suited;100;BB;;vs open BTN
+J-J;Pairé;100;BB;;vs open BTN
+J-10;suited;100;BB;;vs open BTN
+J-9;suited;100;BB;;vs open BTN
+J-8;suited;100;BB;;vs open BTN
+J-7;suited;100;BB;;vs open BTN
+J-6;suited;100;BB;;vs open BTN
+J-5;suited;100;BB;;vs open BTN
+J-4;suited;100;BB;;vs open BTN
+J-3;suited;100;BB;;vs open BTN
+J-2;suited;100;BB;;vs open BTN
+J-10;non suited;100;BB;;vs open BTN
+J-9;non suited;100;BB;;vs open BTN
+J-8;non suited;100;BB;;vs open BTN
+J-7;non suited;100;BB;;vs open BTN
+J-6;non suited;100;BB;;vs open BTN
+J-5;non suited;100;BB;;vs open BTN
+J-4;non suited;100;BB;;vs open BTN
+J-3;non suited;100;BB;;vs open BTN
+J-2;non suited;100;BB;;vs open BTN
+10-10;Pairé;100;BB;;vs open BTN
+10-9;suited;100;BB;;vs open BTN
+10-8;suited;100;BB;;vs open BTN
+10-7;suited;100;BB;;vs open BTN
+10-6;suited;100;BB;;vs open BTN
+10-5;suited;100;BB;;vs open BTN
+10-4;suited;100;BB;;vs open BTN
+10-3;suited;100;BB;;vs open BTN
+10-2;suited;100;BB;;vs open BTN
+10-9;non suited;100;BB;;vs open BTN
+10-8;non suited;100;BB;;vs open BTN
+10-7;non suited;100;BB;;vs open BTN
+10-6;non suited;100;BB;;vs open BTN
+10-5;non suited;100;BB;;vs open BTN
+10-4;non suited;100;BB;;vs open BTN
+10-3;non suited;100;BB;;vs open BTN
+10-2;non suited;100;BB;;vs open BTN
+9-9;Pairé;100;BB;;vs open BTN
+9-8;suited;100;BB;;vs open BTN
+9-7;suited;100;BB;;vs open BTN
+9-6;suited;100;BB;;vs open BTN
+9-5;suited;100;BB;;vs open BTN
+9-4;suited;100;BB;;vs open BTN
+9-3;suited;100;BB;;vs open BTN
+9-2;suited;100;BB;;vs open BTN
+9-8;non suited;100;BB;;vs open BTN
+9-7;non suited;100;BB;;vs open BTN
+9-6;non suited;100;BB;;vs open BTN
+9-5;non suited;100;BB;;vs open BTN
+9-4;non suited;100;BB;;vs open BTN
+9-3;non suited;100;BB;;vs open BTN
+9-2;non suited;100;BB;;vs open BTN
+8-8;Pairé;100;BB;;vs open BTN
+8-7;suited;100;BB;;vs open BTN
+8-6;suited;100;BB;;vs open BTN
+8-5;suited;100;BB;;vs open BTN
+8-4;suited;100;BB;;vs open BTN
+8-3;suited;100;BB;;vs open BTN
+8-2;suited;100;BB;;vs open BTN
+8-7;non suited;100;BB;;vs open BTN
+8-6;non suited;100;BB;;vs open BTN
+8-5;non suited;100;BB;;vs open BTN
+8-4;non suited;100;BB;;vs open BTN
+8-3;non suited;100;BB;;vs open BTN
+8-2;non suited;100;BB;;vs open BTN
+7-7;Pairé;100;BB;;vs open BTN
+7-6;suited;100;BB;;vs open BTN
+7-5;suited;100;BB;;vs open BTN
+7-4;suited;100;BB;;vs open BTN
+7-3;suited;100;BB;;vs open BTN
+7-2;suited;100;BB;;vs open BTN
+7-6;non suited;100;BB;;vs open BTN
+7-5;non suited;100;BB;;vs open BTN
+7-4;non suited;100;BB;;vs open BTN
+7-3;non suited;100;BB;;vs open BTN
+7-2;non suited;100;BB;;vs open BTN
+6-6;Pairé;100;BB;;vs open BTN
+6-5;suited;100;BB;;vs open BTN
+6-4;suited;100;BB;;vs open BTN
+6-3;suited;100;BB;;vs open BTN
+6-2;suited;100;BB;;vs open BTN
+6-5;non suited;100;BB;;vs open BTN
+6-4;non suited;100;BB;;vs open BTN
+6-3;non suited;100;BB;;vs open BTN
+6-2;non suited;100;BB;;vs open BTN
+5-5;Pairé;100;BB;;vs open BTN
+5-4;suited;100;BB;;vs open BTN
+5-3;suited;100;BB;;vs open BTN
+5-2;suited;100;BB;;vs open BTN
+5-4;non suited;100;BB;;vs open BTN
+5-3;non suited;100;BB;;vs open BTN
+5-2;non suited;100;BB;;vs open BTN
+4-4;Pairé;100;BB;;vs open BTN
+4-3;suited;100;BB;;vs open BTN
+4-2;suited;100;BB;;vs open BTN
+4-3;non suited;100;BB;;vs open BTN
+4-2;non suited;100;BB;;vs open BTN
+3-3;Pairé;100;BB;;vs open BTN
+3-2;suited;100;BB;;vs open BTN
+3-2;non suited;100;BB;;vs open BTN
+2-2;Pairé;100;BB;;vs open BTN
+A-A;Pairé;100;BB;;vs open CO
+A-K;suited;100;BB;;vs open CO
+A-Q;suited;100;BB;;vs open CO
+A-J;suited;100;BB;;vs open CO
+A-10;suited;100;BB;;vs open CO
+A-9;suited;100;BB;;vs open CO
+A-8;suited;100;BB;;vs open CO
+A-7;suited;100;BB;;vs open CO
+A-6;suited;100;BB;;vs open CO
+A-5;suited;100;BB;;vs open CO
+A-4;suited;100;BB;;vs open CO
+A-3;suited;100;BB;;vs open CO
+A-2;suited;100;BB;;vs open CO
+A-K;non suited;100;BB;;vs open CO
+A-Q;non suited;100;BB;;vs open CO
+A-J;non suited;100;BB;;vs open CO
+A-10;non suited;100;BB;;vs open CO
+A-9;non suited;100;BB;;vs open CO
+A-8;non suited;100;BB;;vs open CO
+A-7;non suited;100;BB;;vs open CO
+A-6;non suited;100;BB;;vs open CO
+A-5;non suited;100;BB;;vs open CO
+A-4;non suited;100;BB;;vs open CO
+A-3;non suited;100;BB;;vs open CO
+A-2;non suited;100;BB;;vs open CO
+K-K;Pairé;100;BB;;vs open CO
+K-Q;suited;100;BB;;vs open CO
+K-J;suited;100;BB;;vs open CO
+K-10;suited;100;BB;;vs open CO
+K-9;suited;100;BB;;vs open CO
+K-8;suited;100;BB;;vs open CO
+K-7;suited;100;BB;;vs open CO
+K-6;suited;100;BB;;vs open CO
+K-5;suited;100;BB;;vs open CO
+K-4;suited;100;BB;;vs open CO
+K-3;suited;100;BB;;vs open CO
+K-2;suited;100;BB;;vs open CO
+K-Q;non suited;100;BB;;vs open CO
+K-J;non suited;100;BB;;vs open CO
+K-10;non suited;100;BB;;vs open CO
+K-9;non suited;100;BB;;vs open CO
+K-8;non suited;100;BB;;vs open CO
+K-7;non suited;100;BB;;vs open CO
+K-6;non suited;100;BB;;vs open CO
+K-5;non suited;100;BB;;vs open CO
+K-4;non suited;100;BB;;vs open CO
+K-3;non suited;100;BB;;vs open CO
+K-2;non suited;100;BB;;vs open CO
+Q-Q;Pairé;100;BB;;vs open CO
+Q-J;suited;100;BB;;vs open CO
+Q-10;suited;100;BB;;vs open CO
+Q-9;suited;100;BB;;vs open CO
+Q-8;suited;100;BB;;vs open CO
+Q-7;suited;100;BB;;vs open CO
+Q-6;suited;100;BB;;vs open CO
+Q-5;suited;100;BB;;vs open CO
+Q-4;suited;100;BB;;vs open CO
+Q-3;suited;100;BB;;vs open CO
+Q-2;suited;100;BB;;vs open CO
+Q-J;non suited;100;BB;;vs open CO
+Q-10;non suited;100;BB;;vs open CO
+Q-9;non suited;100;BB;;vs open CO
+Q-8;non suited;100;BB;;vs open CO
+Q-7;non suited;100;BB;;vs open CO
+Q-6;non suited;100;BB;;vs open CO
+Q-5;non suited;100;BB;;vs open CO
+Q-4;non suited;100;BB;;vs open CO
+Q-3;non suited;100;BB;;vs open CO
+Q-2;non suited;100;BB;;vs open CO
+J-J;Pairé;100;BB;;vs open CO
+J-10;suited;100;BB;;vs open CO
+J-9;suited;100;BB;;vs open CO
+J-8;suited;100;BB;;vs open CO
+J-7;suited;100;BB;;vs open CO
+J-6;suited;100;BB;;vs open CO
+J-5;suited;100;BB;;vs open CO
+J-4;suited;100;BB;;vs open CO
+J-3;suited;100;BB;;vs open CO
+J-2;suited;100;BB;;vs open CO
+J-10;non suited;100;BB;;vs open CO
+J-9;non suited;100;BB;;vs open CO
+J-8;non suited;100;BB;;vs open CO
+J-7;non suited;100;BB;;vs open CO
+J-6;non suited;100;BB;;vs open CO
+J-5;non suited;100;BB;;vs open CO
+J-4;non suited;100;BB;;vs open CO
+J-3;non suited;100;BB;;vs open CO
+J-2;non suited;100;BB;;vs open CO
+10-10;Pairé;100;BB;;vs open CO
+10-9;suited;100;BB;;vs open CO
+10-8;suited;100;BB;;vs open CO
+10-7;suited;100;BB;;vs open CO
+10-6;suited;100;BB;;vs open CO
+10-5;suited;100;BB;;vs open CO
+10-4;suited;100;BB;;vs open CO
+10-3;suited;100;BB;;vs open CO
+10-2;suited;100;BB;;vs open CO
+10-9;non suited;100;BB;;vs open CO
+10-8;non suited;100;BB;;vs open CO
+10-7;non suited;100;BB;;vs open CO
+10-6;non suited;100;BB;;vs open CO
+10-5;non suited;100;BB;;vs open CO
+10-4;non suited;100;BB;;vs open CO
+10-3;non suited;100;BB;;vs open CO
+10-2;non suited;100;BB;;vs open CO
+9-9;Pairé;100;BB;;vs open CO
+9-8;suited;100;BB;;vs open CO
+9-7;suited;100;BB;;vs open CO
+9-6;suited;100;BB;;vs open CO
+9-5;suited;100;BB;;vs open CO
+9-4;suited;100;BB;;vs open CO
+9-3;suited;100;BB;;vs open CO
+9-2;suited;100;BB;;vs open CO
+9-8;non suited;100;BB;;vs open CO
+9-7;non suited;100;BB;;vs open CO
+9-6;non suited;100;BB;;vs open CO
+9-5;non suited;100;BB;;vs open CO
+9-4;non suited;100;BB;;vs open CO
+9-3;non suited;100;BB;;vs open CO
+9-2;non suited;100;BB;;vs open CO
+8-8;Pairé;100;BB;;vs open CO
+8-7;suited;100;BB;;vs open CO
+8-6;suited;100;BB;;vs open CO
+8-5;suited;100;BB;;vs open CO
+8-4;suited;100;BB;;vs open CO
+8-3;suited;100;BB;;vs open CO
+8-2;suited;100;BB;;vs open CO
+8-7;non suited;100;BB;;vs open CO
+8-6;non suited;100;BB;;vs open CO
+8-5;non suited;100;BB;;vs open CO
+8-4;non suited;100;BB;;vs open CO
+8-3;non suited;100;BB;;vs open CO
+8-2;non suited;100;BB;;vs open CO
+7-7;Pairé;100;BB;;vs open CO
+7-6;suited;100;BB;;vs open CO
+7-5;suited;100;BB;;vs open CO
+7-4;suited;100;BB;;vs open CO
+7-3;suited;100;BB;;vs open CO
+7-2;suited;100;BB;;vs open CO
+7-6;non suited;100;BB;;vs open CO
+7-5;non suited;100;BB;;vs open CO
+7-4;non suited;100;BB;;vs open CO
+7-3;non suited;100;BB;;vs open CO
+7-2;non suited;100;BB;;vs open CO
+6-6;Pairé;100;BB;;vs open CO
+6-5;suited;100;BB;;vs open CO
+6-4;suited;100;BB;;vs open CO
+6-3;suited;100;BB;;vs open CO
+6-2;suited;100;BB;;vs open CO
+6-5;non suited;100;BB;;vs open CO
+6-4;non suited;100;BB;;vs open CO
+6-3;non suited;100;BB;;vs open CO
+6-2;non suited;100;BB;;vs open CO
+5-5;Pairé;100;BB;;vs open CO
+5-4;suited;100;BB;;vs open CO
+5-3;suited;100;BB;;vs open CO
+5-2;suited;100;BB;;vs open CO
+5-4;non suited;100;BB;;vs open CO
+5-3;non suited;100;BB;;vs open CO
+5-2;non suited;100;BB;;vs open CO
+4-4;Pairé;100;BB;;vs open CO
+4-3;suited;100;BB;;vs open CO
+4-2;suited;100;BB;;vs open CO
+4-3;non suited;100;BB;;vs open CO
+4-2;non suited;100;BB;;vs open CO
+3-3;Pairé;100;BB;;vs open CO
+3-2;suited;100;BB;;vs open CO
+3-2;non suited;100;BB;;vs open CO
+2-2;Pairé;100;BB;;vs open CO
+A-A;Pairé;100;BB;;vs open early
+A-K;suited;100;BB;;vs open early
+A-Q;suited;100;BB;;vs open early
+A-J;suited;100;BB;;vs open early
+A-10;suited;100;BB;;vs open early
+A-9;suited;100;BB;;vs open early
+A-8;suited;100;BB;;vs open early
+A-7;suited;100;BB;;vs open early
+A-6;suited;100;BB;;vs open early
+A-5;suited;100;BB;;vs open early
+A-4;suited;100;BB;;vs open early
+A-3;suited;100;BB;;vs open early
+A-2;suited;100;BB;;vs open early
+A-K;non suited;100;BB;;vs open early
+A-Q;non suited;100;BB;;vs open early
+A-J;non suited;100;BB;;vs open early
+A-10;non suited;100;BB;;vs open early
+A-9;non suited;100;BB;;vs open early
+A-8;non suited;100;BB;;vs open early
+A-7;non suited;100;BB;;vs open early
+A-6;non suited;100;BB;;vs open early
+A-5;non suited;100;BB;;vs open early
+A-4;non suited;100;BB;;vs open early
+A-3;non suited;100;BB;;vs open early
+A-2;non suited;100;BB;;vs open early
+K-K;Pairé;100;BB;;vs open early
+K-Q;suited;100;BB;;vs open early
+K-J;suited;100;BB;;vs open early
+K-10;suited;100;BB;;vs open early
+K-9;suited;100;BB;;vs open early
+K-8;suited;100;BB;;vs open early
+K-7;suited;100;BB;;vs open early
+K-6;suited;100;BB;;vs open early
+K-5;suited;100;BB;;vs open early
+K-4;suited;100;BB;;vs open early
+K-3;suited;100;BB;;vs open early
+K-2;suited;100;BB;;vs open early
+K-Q;non suited;100;BB;;vs open early
+K-J;non suited;100;BB;;vs open early
+K-10;non suited;100;BB;;vs open early
+K-9;non suited;100;BB;;vs open early
+K-8;non suited;100;BB;;vs open early
+K-7;non suited;100;BB;;vs open early
+K-6;non suited;100;BB;;vs open early
+K-5;non suited;100;BB;;vs open early
+K-4;non suited;100;BB;;vs open early
+K-3;non suited;100;BB;;vs open early
+K-2;non suited;100;BB;;vs open early
+Q-Q;Pairé;100;BB;;vs open early
+Q-J;suited;100;BB;;vs open early
+Q-10;suited;100;BB;;vs open early
+Q-9;suited;100;BB;;vs open early
+Q-8;suited;100;BB;;vs open early
+Q-7;suited;100;BB;;vs open early
+Q-6;suited;100;BB;;vs open early
+Q-5;suited;100;BB;;vs open early
+Q-4;suited;100;BB;;vs open early
+Q-3;suited;100;BB;;vs open early
+Q-2;suited;100;BB;;vs open early
+Q-J;non suited;100;BB;;vs open early
+Q-10;non suited;100;BB;;vs open early
+Q-9;non suited;100;BB;;vs open early
+Q-8;non suited;100;BB;;vs open early
+Q-7;non suited;100;BB;;vs open early
+Q-6;non suited;100;BB;;vs open early
+Q-5;non suited;100;BB;;vs open early
+Q-4;non suited;100;BB;;vs open early
+Q-3;non suited;100;BB;;vs open early
+Q-2;non suited;100;BB;;vs open early
+J-J;Pairé;100;BB;;vs open early
+J-10;suited;100;BB;;vs open early
+J-9;suited;100;BB;;vs open early
+J-8;suited;100;BB;;vs open early
+J-7;suited;100;BB;;vs open early
+J-6;suited;100;BB;;vs open early
+J-5;suited;100;BB;;vs open early
+J-4;suited;100;BB;;vs open early
+J-3;suited;100;BB;;vs open early
+J-2;suited;100;BB;;vs open early
+J-10;non suited;100;BB;;vs open early
+J-9;non suited;100;BB;;vs open early
+J-8;non suited;100;BB;;vs open early
+J-7;non suited;100;BB;;vs open early
+J-6;non suited;100;BB;;vs open early
+J-5;non suited;100;BB;;vs open early
+J-4;non suited;100;BB;;vs open early
+J-3;non suited;100;BB;;vs open early
+J-2;non suited;100;BB;;vs open early
+10-10;Pairé;100;BB;;vs open early
+10-9;suited;100;BB;;vs open early
+10-8;suited;100;BB;;vs open early
+10-7;suited;100;BB;;vs open early
+10-6;suited;100;BB;;vs open early
+10-5;suited;100;BB;;vs open early
+10-4;suited;100;BB;;vs open early
+10-3;suited;100;BB;;vs open early
+10-2;suited;100;BB;;vs open early
+10-9;non suited;100;BB;;vs open early
+10-8;non suited;100;BB;;vs open early
+10-7;non suited;100;BB;;vs open early
+10-6;non suited;100;BB;;vs open early
+10-5;non suited;100;BB;;vs open early
+10-4;non suited;100;BB;;vs open early
+10-3;non suited;100;BB;;vs open early
+10-2;non suited;100;BB;;vs open early
+9-9;Pairé;100;BB;;vs open early
+9-8;suited;100;BB;;vs open early
+9-7;suited;100;BB;;vs open early
+9-6;suited;100;BB;;vs open early
+9-5;suited;100;BB;;vs open early
+9-4;suited;100;BB;;vs open early
+9-3;suited;100;BB;;vs open early
+9-2;suited;100;BB;;vs open early
+9-8;non suited;100;BB;;vs open early
+9-7;non suited;100;BB;;vs open early
+9-6;non suited;100;BB;;vs open early
+9-5;non suited;100;BB;;vs open early
+9-4;non suited;100;BB;;vs open early
+9-3;non suited;100;BB;;vs open early
+9-2;non suited;100;BB;;vs open early
+8-8;Pairé;100;BB;;vs open early
+8-7;suited;100;BB;;vs open early
+8-6;suited;100;BB;;vs open early
+8-5;suited;100;BB;;vs open early
+8-4;suited;100;BB;;vs open early
+8-3;suited;100;BB;;vs open early
+8-2;suited;100;BB;;vs open early
+8-7;non suited;100;BB;;vs open early
+8-6;non suited;100;BB;;vs open early
+8-5;non suited;100;BB;;vs open early
+8-4;non suited;100;BB;;vs open early
+8-3;non suited;100;BB;;vs open early
+8-2;non suited;100;BB;;vs open early
+7-7;Pairé;100;BB;;vs open early
+7-6;suited;100;BB;;vs open early
+7-5;suited;100;BB;;vs open early
+7-4;suited;100;BB;;vs open early
+7-3;suited;100;BB;;vs open early
+7-2;suited;100;BB;;vs open early
+7-6;non suited;100;BB;;vs open early
+7-5;non suited;100;BB;;vs open early
+7-4;non suited;100;BB;;vs open early
+7-3;non suited;100;BB;;vs open early
+7-2;non suited;100;BB;;vs open early
+6-6;Pairé;100;BB;;vs open early
+6-5;suited;100;BB;;vs open early
+6-4;suited;100;BB;;vs open early
+6-3;suited;100;BB;;vs open early
+6-2;suited;100;BB;;vs open early
+6-5;non suited;100;BB;;vs open early
+6-4;non suited;100;BB;;vs open early
+6-3;non suited;100;BB;;vs open early
+6-2;non suited;100;BB;;vs open early
+5-5;Pairé;100;BB;;vs open early
+5-4;suited;100;BB;;vs open early
+5-3;suited;100;BB;;vs open early
+5-2;suited;100;BB;;vs open early
+5-4;non suited;100;BB;;vs open early
+5-3;non suited;100;BB;;vs open early
+5-2;non suited;100;BB;;vs open early
+4-4;Pairé;100;BB;;vs open early
+4-3;suited;100;BB;;vs open early
+4-2;suited;100;BB;;vs open early
+4-3;non suited;100;BB;;vs open early
+4-2;non suited;100;BB;;vs open early
+3-3;Pairé;100;BB;;vs open early
+3-2;suited;100;BB;;vs open early
+3-2;non suited;100;BB;;vs open early
+2-2;Pairé;100;BB;;vs open early

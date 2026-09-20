@@ -3,7 +3,9 @@
 // Aucune théorie n'est ajoutée : rien ici ne sort de tes données.
 
 import { RANKS, allHands, comboCount } from './cards.js';
-import { openPercent, POSITION_LABEL, ACTION_META, expectedLabel } from './ranges.js';
+import {
+  openPercent, POSITION_LABEL, ACTION_META, expectedLabel, SCENARIO_SHORT, facingRaise,
+} from './ranges.js';
 import { ACTION_ORDER } from './table.js';
 
 const rankIndex = (r) => RANKS.indexOf(r);
@@ -103,10 +105,14 @@ export function explain({ range, hand, entry, result, allRanges = [] }) {
       + 'sans fréquence fixée : les deux réponses comptent justes.');
   } else {
     const action = entry.actions[0];
+    const spot = facingRaise(range.scenario)
+      ? `${position} ${SCENARIO_SHORT[range.scenario] || range.scenario}`
+      : `${position} (${POSITION_LABEL[position] || position})`;
+    const verb = facingRaise(range.scenario) ? 'continue avec' : 'ouvre';
     out.push(action === 'fold'
-      ? `${label} est hors de ta range d'ouverture en ${position}, qui ne joue que ${fmt(open, 1)} % des combinaisons.`
-      : `Ta range ouvre ${fmt(open, 1)} % des combinaisons en ${position} `
-        + `(${POSITION_LABEL[position] || position}), et ${label} en fait partie, en ${ACTION_META[action].label.toLowerCase()}.`);
+      ? `${label} est hors de ta range en ${spot}, qui ne joue que ${fmt(open, 1)} % des combinaisons.`
+      : `Ta range ${verb} ${fmt(open, 1)} % des combinaisons en ${spot}, `
+        + `et ${label} en fait partie, en ${ACTION_META[action].label.toLowerCase()}.`);
   }
 
   // 2. Où se situe la limite dans la famille de la main : c'est le repère mémorisable.
@@ -139,7 +145,8 @@ export function explain({ range, hand, entry, result, allRanges = [] }) {
 
 /** Compare le même spot à une autre position, sinon à une autre profondeur. */
 function compare(range, hand, allRanges, open) {
-  const sameStack = allRanges.filter((r) => r.stackBB === range.stackBB && r.position !== range.position);
+  const peers = allRanges.filter((r) => r.scenario === range.scenario);
+  const sameStack = peers.filter((r) => r.stackBB === range.stackBB && r.position !== range.position);
   const heroIndex = ACTION_ORDER.indexOf(range.position);
 
   // Une position plus tardive au même stack : l'écart de largeur saute aux yeux.
@@ -153,14 +160,15 @@ function compare(range, hand, allRanges, open) {
     const here = range.hands[hand];
     const differs = entry && here
       && entry.actions.join() !== here.actions.join();
-    const base = `En ${later.position} au même stack tu ouvres ${fmt(openPercent(later), 1)} %`;
+    const verb = facingRaise(range.scenario) ? 'tu continues avec' : 'tu ouvres';
+    const base = `En ${later.position} au même stack ${verb} ${fmt(openPercent(later), 1)} %`;
     return differs
       ? `${base}, et ${pretty(hand)} y devient ${expectedLabel(entry.actions).toLowerCase()}.`
-      : `${base} : plus tu parles tard, plus ta range s'élargit.`;
+      : `${base}${facingRaise(range.scenario) ? '.' : " : plus tu parles tard, plus ta range s'élargit."}`;
   }
 
   // Sinon, la même position à une autre profondeur.
-  const other = allRanges
+  const other = peers
     .filter((r) => r.position === range.position && r.stackBB !== range.stackBB)
     .sort((a, b) => Math.abs(a.stackBB - range.stackBB) - Math.abs(b.stackBB - range.stackBB))[0];
   if (!other) return null;

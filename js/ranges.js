@@ -12,13 +12,40 @@ export const POSITION_LABEL = {
 export const SCENARIOS = {
   RFI: "Ouverture (personne n'est entré)",
   VS_OPEN: 'Face à une ouverture',
+  VS_OPEN_BTN: 'Face à une ouverture du bouton',
+  VS_OPEN_CO: 'Face à une ouverture du cutoff',
+  VS_OPEN_EARLY: 'Face à une ouverture précoce',
   VS_3BET: 'Face à un 3bet',
   VS_SHOVE: 'Face à un all-in',
 };
 
 export const SCENARIO_SHORT = {
-  RFI: 'Ouverture', VS_OPEN: 'vs open', VS_3BET: 'vs 3bet', VS_SHOVE: 'vs all-in',
+  RFI: 'Ouverture',
+  VS_OPEN: 'vs open',
+  VS_OPEN_BTN: 'vs BTN',
+  VS_OPEN_CO: 'vs CO',
+  VS_OPEN_EARLY: 'vs early',
+  VS_3BET: 'vs 3bet',
+  VS_SHOVE: 'vs all-in',
 };
+
+/**
+ * Qui a ouvert, pour chaque scénario où quelqu'un est entré avant toi.
+ * Absent pour RFI : personne n'a parlé.
+ */
+export const AGGRESSOR = {
+  VS_OPEN: 'CO',
+  VS_OPEN_BTN: 'BTN',
+  VS_OPEN_CO: 'CO',
+  VS_OPEN_EARLY: 'LJ',
+  VS_3BET: 'BTN',
+  VS_SHOVE: 'BTN',
+};
+
+/** Vrai si le scénario place le joueur face à une mise déjà engagée. */
+export function facingRaise(scenario) {
+  return Boolean(AGGRESSOR[scenario]);
+}
 
 export const ACTIONS = ['fold', 'limp', 'call', 'raise', 'allin'];
 

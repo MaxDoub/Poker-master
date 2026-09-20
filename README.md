@@ -152,6 +152,44 @@ s'active pas** : Safari refuse les service workers hors HTTPS/localhost.
 
 ---
 
+## Scénarios
+
+Une range est identifiée par **position × profondeur × scénario**. La colonne `scenario`
+de l'import accepte :
+
+| Valeur dans le fichier | Sens |
+| --- | --- |
+| *(vide)* ou `RFI` | Ouverture : personne n'est entré avant toi |
+| `vs open BTN` | Face à une ouverture du bouton |
+| `vs open CO` | Face à une ouverture du cutoff ou du hijack |
+| `vs open early` | Face à une ouverture précoce |
+| `vs 3bet`, `vs shove` | Prévus, pas encore alimentés |
+
+Quand le scénario place quelqu'un devant toi, la table le montre : son siège passe en
+rouge, sa mise est posée devant lui, et les cotes du pot apparaissent dans la correction.
+
+**La taille d'ouverture est un réglage, pas une donnée.** Ton Excel n'en contient pas :
+elle se choisit dans la config du drill (2 / 2,5 / 3 BB) et sert uniquement à afficher
+les cotes. Elle ne change aucune réponse attendue.
+
+### Défense en grosse blinde
+
+C'est le trou le plus coûteux d'un jeu de ranges limité à l'ouverture. Calculé sur tes
+propres fréquences : **en grosse blinde, quelqu'un a déjà ouvert 97 % du temps** à
+100 BB, 94 % à 20 BB. Plus largement, des ranges d'ouverture seules ne couvrent que
+**46 % de tes décisions préflop**.
+
+Pour t'aider à combler ça :
+
+```bash
+python3 tools/make_bb_template.py
+```
+
+produit `data/modele-defense-bb.csv` — 2535 lignes (169 mains × 5 profondeurs ×
+3 scénarios), colonne décision vide, **dans le même ordre de mains que ton Excel** pour
+permettre le copier-coller d'une colonne entière. Les lignes laissées vides sont ignorées
+à l'import : tu peux remplir par blocs et réimporter autant de fois que tu veux.
+
 ## Tes ranges
 
 `range_poker.xlsx` donne 25 ranges : 169 mains × 5 profondeurs (10, 15, 20, 50, 100 BB)
