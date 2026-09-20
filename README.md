@@ -18,6 +18,7 @@ les fichiers du dépôt *sont* l'application.
 | **Cotes & équité** | Call ou fold face à un all-in | Monte-Carlo contre ta range de shove |
 | **Combos & blockers** | Compter les combinaisons | Arithmétique pure |
 | **Audit des ranges** | Repérer ce qui se contredit dans tes données | Tes ranges |
+| **Que faire ?** | Consulter une main précise, hors exercice | Tes ranges, avec justification |
 
 Le principe est constant : **l'app ne t'apprend jamais une stratégie qu'elle a inventée.**
 Soit elle te compare à tes propres ranges, soit elle te donne un résultat purement
@@ -68,6 +69,18 @@ comprise) est vérifiable : AA vs KK donne 81 %, AKs vs QQ 46 %, 76s vs AA 23 %.
 Questions à choix multiple, réponses factuelles : combien de combinaisons de telle main
 restent quand tu en bloques une, combien une main canonique en compte, quelle part des
 combinaisons telle range joue. C'est le comptage qui rend le hand-reading possible.
+
+### Que faire ?
+
+Ce n'est pas un exercice : c'est une consultation. Tu donnes ta position, ton stack et
+tes deux cartes (assorties ou non), l'app répond ce que tes ranges disent — et pourquoi,
+avec les mêmes justifications que le drill.
+
+La réponse est en haut de l'écran et se met à jour à chaque changement, sans bouton à
+valider. La grille 13×13 en bas est cliquable : toucher une case consulte cette main.
+La dernière consultation est mémorisée.
+
+Accessible depuis l'accueil et depuis l'écran Ranges.
 
 ### Audit des ranges
 
@@ -235,7 +248,7 @@ js/
   grid.js               rendu de la grille 13x13
   db.js                 IndexedDB
   ui.js / theme.js      aides DOM, thème
-  views/                un fichier par écran
+  views/                un fichier par écran (dont lookup.js, « Que faire ? »)
 data/
   mes-ranges.json       tes 25 ranges
   demo-range.json       ranges génériques, pour tester l'app

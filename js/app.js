@@ -5,6 +5,7 @@ import { getSetting } from './db.js';
 import { applyTheme } from './theme.js';
 import { renderHome } from './views/home.js';
 import { renderTrain } from './views/train.js';
+import { renderLookup } from './views/lookup.js';
 import { renderDrill } from './views/drill.js';
 import { renderOdds } from './views/odds.js';
 import { renderCombos } from './views/combos.js';
@@ -17,6 +18,7 @@ import { renderSettings } from './views/settings.js';
 const ROUTES = {
   '/home': renderHome,
   '/train': renderTrain,
+  '/lookup': renderLookup,
   '/drill': renderDrill,
   '/odds': renderOdds,
   '/combos': renderCombos,
@@ -38,6 +40,7 @@ const TABS = [
 // Écrans rattachés à un onglet qui n'est pas le leur.
 const TAB_OF = {
   '/drill': '/train', '/odds': '/train', '/combos': '/train',
+  '/lookup': '/ranges',
   '/audit': '/ranges', '/import': '/ranges',
 };
 

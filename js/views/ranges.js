@@ -27,6 +27,7 @@ export async function renderRanges(root, params) {
             `${SCENARIO_SHORT[r.scenario] || r.scenario} · ${filledCount(r)} mains renseignées`)),
         el('span.list__side', null, `${pct(openPercent(r), 1)} jouées`))))),
     el('div.stack', null,
+      el('button.btn.btn--ghost', { onclick: () => go('#/lookup') }, 'Que faire ? — consulter une main'),
       el('button.btn.btn--ghost', { onclick: () => go('#/audit') }, 'Auditer mes ranges'),
       el('button.btn.btn--ghost', { onclick: () => go('#/import') }, 'Importer / mettre à jour')),
   );

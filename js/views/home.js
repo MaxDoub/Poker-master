@@ -33,6 +33,7 @@ export async function renderHome(root) {
 
     el('div.stack', null,
       el('button.btn.btn--primary.btn--xl', { onclick: () => go('#/drill') }, 'Lancer un drill'),
+      el('button.btn.btn--ghost', { onclick: () => go('#/lookup') }, 'Que faire ? — consulter une main'),
       el('button.btn.btn--ghost', { onclick: () => go('#/train') }, 'Tous les exercices')),
 
     section("Aujourd'hui",
