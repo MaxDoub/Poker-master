@@ -52,6 +52,15 @@ export async function renderSettings(root) {
   mount(root,
     el('h1.page-title', null, 'Réglages'),
 
+    // Les ranges ne sont plus un onglet : on les consulte d'ici.
+    section('Mes ranges',
+      el('p.hint.hint--label', null,
+        `${ranges.length} ranges chargées.`),
+      el('div.stack', null,
+        el('button.btn.btn--ghost', { onclick: () => go('#/ranges') }, 'Voir et modifier mes ranges'),
+        el('button.btn.btn--ghost', { onclick: () => go('#/audit') }, 'Auditer mes ranges'),
+        el('button.btn.btn--ghost', { onclick: () => go('#/import') }, 'Importer / mettre à jour'))),
+
     section('Thème',
       el('div.chips', null, [['dark', 'Sombre'], ['light', 'Clair'], ['auto', 'Auto']].map(([v, label]) => {
         const btn = el('button.chip' + (theme === v ? '.is-on' : ''), {

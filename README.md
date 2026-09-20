@@ -81,7 +81,11 @@ valider. La grille 13×13 en bas est cliquable : toucher une case consulte cette
 La dernière consultation est mémorisée.
 
 Accessible par l'onglet **Consulter** de la barre du bas, toujours visible, ainsi que
-depuis l'accueil et l'écran Ranges.
+depuis l'accueil.
+
+Les ranges elles-mêmes (liste, grilles, audit, import) se rejoignent depuis l'écran
+**Réglages** : elles se consultent rarement en pleine session, contrairement aux
+exercices.
 
 ### Audit des ranges
 
@@ -236,6 +240,7 @@ index.html              coquille de l'app
 manifest.webmanifest    installation sur l'écran d'accueil
 sw.js                   cache hors ligne
 css/app.css             thème sombre/clair, mobile-first
+assets/felt.jpg         photo de feutre en fond (thème sombre uniquement)
 js/
   app.js                routeur (navigation par hash)
   cards.js              cartes, 169 mains canoniques, grille 13x13

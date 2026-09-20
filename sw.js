@@ -1,6 +1,6 @@
 // Service worker : l'app doit rester utilisable dans le métro ou en avion.
 
-const VERSION = 'poker-master-v10';
+const VERSION = 'poker-master-v11';
 
 const ASSETS = [
   './',
@@ -34,6 +34,7 @@ const ASSETS = [
   'js/views/settings.js',
   'data/demo-range.json',
   'data/mes-ranges.json',
+  'assets/felt.jpg',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/apple-touch-icon.png',

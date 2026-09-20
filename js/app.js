@@ -34,14 +34,13 @@ const TABS = [
   { route: '/train', label: "S'entraîner", icon: '▶' },
   { route: '/lookup', label: 'Consulter', icon: '?' },
   { route: '/stats', label: 'Stats', icon: '▥' },
-  { route: '/ranges', label: 'Ranges', icon: '▦' },
   { route: '/settings', label: 'Réglages', icon: '⚙' },
 ];
 
 // Écrans rattachés à un onglet qui n'est pas le leur.
 const TAB_OF = {
   '/drill': '/train', '/odds': '/train', '/combos': '/train',
-  '/audit': '/ranges', '/import': '/ranges',
+  '/ranges': '/settings', '/audit': '/settings', '/import': '/settings',
 };
 
 const view = document.getElementById('view');
