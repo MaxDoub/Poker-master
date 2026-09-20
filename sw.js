@@ -1,6 +1,6 @@
 // Service worker : l'app doit rester utilisable dans le métro ou en avion.
 
-const VERSION = 'poker-master-v7';
+const VERSION = 'poker-master-v8';
 
 const ASSETS = [
   './',
@@ -59,7 +59,11 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
-  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  const url = new URL(request.url);
+  if (request.method !== 'GET' || url.origin !== self.location.origin) return;
+  // Jamais sw.js : il doit toujours venir du réseau, sinon la comparaison de
+  // versions comparerait le cache avec lui-même.
+  if (url.pathname.endsWith('/sw.js')) return;
 
   event.respondWith((async () => {
     const cached = await caches.match(request, { ignoreSearch: true });

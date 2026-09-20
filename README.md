@@ -270,9 +270,13 @@ formats en sont dérivés par `make_icons.py`.
 Après modification d'un fichier, **incrémente `VERSION` dans `sw.js`** — sinon le service
 worker continue à servir l'ancienne version depuis son cache.
 
-Les **Réglages** affichent la version réellement chargée, lue dans le service worker
-actif, avec un bouton « Forcer la mise à jour » qui purge le cache et recharge. C'est le
-moyen le plus rapide de vérifier qu'une correction est bien arrivée sur le téléphone.
+Les **Réglages** comparent deux versions : celle **chargée** dans le navigateur, lue dans
+le nom du cache créé par le service worker actif, et celle **publiée** sur le serveur, lue
+hors cache. Quand elles diffèrent, un encadré propose la mise à jour.
+
+Ne pas lire `sw.js` pour connaître la version active : ce fichier n'est pas mis en cache,
+la requête part sur le réseau et renvoie la version du serveur. Le service worker refuse
+d'ailleurs d'intercepter sa propre copie, sinon la comparaison n'aurait aucun sens.
 
 Pendant le développement, ouvre l'app avec `?nosw` :
 

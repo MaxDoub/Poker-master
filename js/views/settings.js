@@ -6,16 +6,30 @@ import { download } from './ranges.js';
 import { applyTheme } from '../theme.js';
 
 /**
- * Version réellement servie au navigateur : on lit le sw.js actif plutôt qu'une
- * constante dupliquée, pour que l'affichage ne puisse pas mentir.
+ * Version réellement active : le nom du cache est créé par le service worker qui
+ * s'est installé, il ne peut donc pas décrire autre chose que le code servi.
+ *
+ * Ne pas lire sw.js pour ça : ce fichier n'est pas mis en cache, la requête part
+ * sur le réseau et renvoie la version du serveur — pas celle qui tourne.
  */
-async function runningVersion() {
+async function loadedVersion() {
   try {
-    const text = await (await fetch('sw.js')).text();
-    const m = text.match(/poker-master-v(\d+)/);
-    return m ? `v${m[1]}` : 'inconnue';
+    const keys = await caches.keys();
+    const match = keys.map((k) => k.match(/^poker-master-v(\d+)$/)).find(Boolean);
+    return match ? `v${match[1]}` : null;
   } catch {
-    return 'inconnue';
+    return null;
+  }
+}
+
+/** Version publiée sur le serveur, lue hors cache. */
+async function publishedVersion() {
+  try {
+    const res = await fetch(`sw.js?check=${Date.now()}`, { cache: 'no-store' });
+    const m = (await res.text()).match(/poker-master-v(\d+)/);
+    return m ? `v${m[1]}` : null;
+  } catch {
+    return null;
   }
 }
 
@@ -29,9 +43,11 @@ async function forceUpdate() {
 }
 
 export async function renderSettings(root) {
-  const [ranges, attempts, theme, version] = await Promise.all([
-    listRanges(), allAttempts(), getSetting('theme', 'dark'), runningVersion(),
+  const [ranges, attempts, theme, loaded, published] = await Promise.all([
+    listRanges(), allAttempts(), getSetting('theme', 'dark'),
+    loadedVersion(), publishedVersion(),
   ]);
+  const outdated = loaded && published && loaded !== published;
 
   mount(root,
     el('h1.page-title', null, 'Réglages'),
@@ -83,12 +99,20 @@ export async function renderSettings(root) {
 
     section('Version',
       el('p.hint', null,
-        el('strong', null, version),
-        " — c'est la version réellement chargée dans ce navigateur, pas celle du serveur."),
-      el('p.hint', null,
-        'Une app installée garde son cache : si une correction ne semble pas arrivée, '
-        + 'utilise le bouton ci-dessous.'),
-      el('button.btn.btn--ghost', { onclick: forceUpdate }, 'Forcer la mise à jour')),
+        'Chargée dans ce navigateur : ', el('strong', null, loaded || 'inconnue'),
+        published ? ' · publiée sur le serveur : ' : '',
+        published ? el('strong', null, published) : null),
+      outdated
+        ? el('div.card.card--warn', null,
+          el('p', null,
+            `Une version plus récente existe (${published}). Tant que tu n'as pas mis à jour, `
+            + "les corrections récentes n'apparaissent pas."),
+          el('button.btn.btn--primary', { onclick: forceUpdate }, 'Mettre à jour maintenant'))
+        : el('div', null,
+          el('p.hint', null,
+            "Une app installée garde son cache : si une correction ne semble pas arrivée, "
+            + 'utilise le bouton ci-dessous.'),
+          el('button.btn.btn--ghost', { onclick: forceUpdate }, 'Forcer la mise à jour'))),
 
     section('À propos',
       el('p.hint', null,
