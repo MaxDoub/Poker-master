@@ -61,8 +61,10 @@ body {
   background-image:
     radial-gradient(120% 70% at 50% -10%, var(--felt-glow) 0%, transparent 60%),
     radial-gradient(90% 50% at 50% 110%, rgba(0, 0, 0, 0.45) 0%, transparent 65%);
-  background-attachment: fixed;
   color: var(--text);
+  font: 16px/1.45 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: contain;
 }
 
 body.felt-bg .card,
@@ -76,19 +78,23 @@ body.felt-bg .stat {
 body.felt-bg .stat { background: color-mix(in srgb, var(--felt-600) 82%, transparent); }
 
 /* Photo de feutre en fond, sous un voile sombre : la texture se voit, le texte
-   garde son contraste. `fixed` évite qu'elle défile avec le contenu. */
-.felt-bg::before {
+   garde son contraste.
+
+   Pas de `background-attachment: fixed` : Safari sur iOS le gère mal et l'image
+   peut ne pas être peinte du tout. C'est inutile ici de toute façon, l'élément
+   étant lui-même en position fixed. */
+body.felt-bg::before {
   content: '';
   position: fixed;
   inset: 0;
   z-index: -1;
-  background:
+  background-image:
     linear-gradient(rgba(4, 20, 15, 0.72), rgba(3, 14, 11, 0.86)),
-    url('../assets/felt.jpg') center / cover no-repeat fixed;
+    url('../assets/felt.jpg');
+  background-position: center, center;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
   pointer-events: none;
-  font: 16px/1.45 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  overscroll-behavior-y: contain;
 }
 
 .app {
