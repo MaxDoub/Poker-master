@@ -266,6 +266,19 @@ formats en sont dérivés par `make_icons.py`.
 
 ---
 
+## Mise à jour de l'app installée
+
+Sur iOS, une app ajoutée à l'écran d'accueil a **son propre stockage, distinct de celui
+de Safari** : mettre à jour dans le navigateur ne la touche pas.
+
+L'app s'en charge donc elle-même. À chaque ouverture et à chaque retour au premier plan,
+elle demande au navigateur de revérifier `sw.js` (enregistré avec `updateViaCache: 'none'`,
+sans quoi le navigateur peut servir sa copie pendant 24 heures). Si une version plus
+récente existe, le nouveau service worker prend la main et la page se recharge une fois.
+
+Il reste le bouton des Réglages pour forcer la main, et en dernier recours : supprimer
+l'icône de l'écran d'accueil puis la réinstaller depuis Safari.
+
 ## Développement
 
 Après modification d'un fichier, **incrémente `VERSION` dans `sw.js`** — sinon le service
